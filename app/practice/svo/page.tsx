@@ -26,6 +26,30 @@ export default function SVOConstructorPage() {
   const subjects = vocabularyData.vocabulary.pronouns.words
   const verbs = verbsData.verbs.slice(0, 20) // First 20 verbs for simplicity
 
+  // Verb-to-category mapping: which object categories make sense for each verb
+  const verbCategoryMapping: { [verbId: number]: string[] } = {
+    1: ['food'], // makan (eat) → food
+    2: ['food'], // minum (drink) → drinks/food
+    3: ['places'], // pergi (go) → places
+    4: ['places'], // datang (come) → places
+    5: ['food', 'places', 'transportation', 'people'], // lihat (see) → universal
+    6: ['people'], // bicara (speak) → people
+    7: ['food', 'places', 'transportation'], // mau (want) → multiple
+    8: ['food', 'places', 'transportation', 'people'], // bisa (can) → universal
+    9: ['food', 'transportation'], // beli (buy) → food, transport
+    10: ['food', 'transportation'], // jual (sell) → food, transport
+    11: ['places'], // tidur (sleep) → places
+    12: ['places'], // bangun (wake up) → places
+    13: ['places'], // kerja (work) → places
+    14: ['places'], // belajar (study) → places
+    15: ['food', 'places', 'transportation', 'people'], // main (play) → universal
+    16: ['food', 'places', 'transportation', 'people'], // tulis (write) → universal
+    17: ['food', 'places', 'transportation', 'people'], // baca (read) → universal
+    18: ['food', 'places', 'transportation', 'people'], // dengar (listen) → universal
+    19: ['food'], // masak (cook) → food
+    20: ['transportation'] // cuci (wash) → transport
+  }
+
   // Objects organized by category with translations
   const objectCategories = {
     food: {
@@ -50,7 +74,35 @@ export default function SVOConstructorPage() {
     }
   }
 
-  const currentObjects = objectCategories[selectedCategory as keyof typeof objectCategories]?.items || []
+  // Filter categories based on selected verb
+  const getAvailableCategories = () => {
+    if (!selectedVerb) return objectCategories
+
+    const allowedCategories = verbCategoryMapping[selectedVerb]
+    if (!allowedCategories) return objectCategories
+
+    const filtered: any = {}
+    allowedCategories.forEach(cat => {
+      if (objectCategories[cat as keyof typeof objectCategories]) {
+        filtered[cat] = objectCategories[cat as keyof typeof objectCategories]
+      }
+    })
+    return filtered
+  }
+
+  const availableCategories = getAvailableCategories()
+  const currentObjects = availableCategories[selectedCategory as keyof typeof availableCategories]?.items || []
+
+  const handleVerbSelect = (verbId: number) => {
+    setSelectedVerb(verbId)
+    setSelectedObject(null)
+
+    // Auto-switch to first available category for this verb
+    const allowedCategories = verbCategoryMapping[verbId] || Object.keys(objectCategories)
+    if (!allowedCategories.includes(selectedCategory)) {
+      setSelectedCategory(allowedCategories[0])
+    }
+  }
 
   const buildSentence = () => {
     if (!constructor || !selectedSubject || selectedVerb === null || !selectedObject) {
@@ -116,11 +168,14 @@ export default function SVOConstructorPage() {
           <p className="text-gray-700 text-sm mb-3">
             Indonesian uses a simple SVO (Subject-Verb-Object) structure, just like English!
           </p>
-          <div className="flex gap-2 text-sm">
+          <div className="flex gap-2 text-sm mb-3">
             <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full">S: Who</span>
             <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full">V: Action</span>
             <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full">O: What</span>
           </div>
+          <p className="text-gray-600 text-xs">
+            ✨ Smart validation: Only logical object categories are shown based on your selected verb!
+          </p>
         </div>
 
         {/* Construction Zone */}
@@ -232,7 +287,7 @@ export default function SVOConstructorPage() {
                 {verbs.map((verb) => (
                   <button
                     key={verb.id}
-                    onClick={() => setSelectedVerb(verb.id)}
+                    onClick={() => handleVerbSelect(verb.id)}
                     className={`px-3 py-2 rounded-lg transition-all text-left ${
                       selectedVerb === verb.id
                         ? 'bg-green-500 text-white shadow-lg scale-105'
@@ -252,7 +307,7 @@ export default function SVOConstructorPage() {
 
               {/* Category Tabs */}
               <div className="flex gap-2 mb-4 overflow-x-auto pb-2">
-                {Object.entries(objectCategories).map(([key, category]) => (
+                {Object.entries(availableCategories).map(([key, category]) => (
                   <button
                     key={key}
                     onClick={() => {
@@ -270,6 +325,13 @@ export default function SVOConstructorPage() {
                   </button>
                 ))}
               </div>
+
+              {/* Helper message when verb limits categories */}
+              {selectedVerb && Object.keys(availableCategories).length < Object.keys(objectCategories).length && (
+                <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg text-sm text-blue-700">
+                  💡 <strong>{verbs.find(v => v.id === selectedVerb)?.indonesian}</strong> only works with certain object types. Other categories are hidden.
+                </div>
+              )}
 
               {/* Objects in selected category */}
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -362,19 +424,19 @@ export default function SVOConstructorPage() {
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>Switch between object categories (Food, Places, Transport, People) for variety</span>
+              <span><strong>Smart filtering:</strong> The app automatically shows only logical object categories for each verb (e.g., you can't "drink bread"!)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>Try different combinations to create hundreds of logical sentences</span>
+              <span><strong>Try different verbs:</strong> Notice how "makan" (eat) only shows Food, while "pergi" (go) only shows Places</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>Listen to the pronunciation after building each sentence</span>
+              <span><strong>Listen & repeat:</strong> Click the audio button to hear proper Indonesian pronunciation</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>Think about which objects make sense with each verb (e.g., "eat rice", "go to hotel")</span>
+              <span><strong>Create many sentences:</strong> Build 10-20 different sentences to really internalize the SVO pattern</span>
             </li>
           </ul>
         </div>
