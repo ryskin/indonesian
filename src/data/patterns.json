@@ -1,0 +1,459 @@
+{
+  "patterns": [
+    {
+      "id": 1,
+      "pattern": "Saya [verb]",
+      "english": "I [verb]",
+      "description": "Basic statement with 'I'",
+      "difficulty": 1,
+      "week": 1,
+      "examples": [
+        { "indonesian": "Saya makan", "english": "I eat" },
+        { "indonesian": "Saya minum", "english": "I drink" },
+        { "indonesian": "Saya pergi", "english": "I go" },
+        { "indonesian": "Saya belajar", "english": "I study" },
+        { "indonesian": "Saya tidur", "english": "I sleep" }
+      ]
+    },
+    {
+      "id": 2,
+      "pattern": "Saya mau [X]",
+      "english": "I want [X]",
+      "description": "Expressing desire",
+      "difficulty": 1,
+      "week": 1,
+      "examples": [
+        { "indonesian": "Saya mau kopi", "english": "I want coffee" },
+        { "indonesian": "Saya mau air", "english": "I want water" },
+        { "indonesian": "Saya mau makan", "english": "I want to eat" },
+        { "indonesian": "Saya mau tidur", "english": "I want to sleep" },
+        { "indonesian": "Saya mau pergi", "english": "I want to go" }
+      ]
+    },
+    {
+      "id": 3,
+      "pattern": "Saya bisa [X]",
+      "english": "I can [X]",
+      "description": "Expressing ability",
+      "difficulty": 1,
+      "week": 1,
+      "examples": [
+        { "indonesian": "Saya bisa berenang", "english": "I can swim" },
+        { "indonesian": "Saya bisa bahasa Indonesia", "english": "I can speak Indonesian" },
+        { "indonesian": "Saya bisa bantu", "english": "I can help" },
+        { "indonesian": "Saya bisa masak", "english": "I can cook" },
+        { "indonesian": "Saya bisa mengerti", "english": "I can understand" }
+      ]
+    },
+    {
+      "id": 4,
+      "pattern": "Saya suka [X]",
+      "english": "I like [X]",
+      "description": "Expressing preference",
+      "difficulty": 1,
+      "week": 2,
+      "examples": [
+        { "indonesian": "Saya suka kopi", "english": "I like coffee" },
+        { "indonesian": "Saya suka nasi goreng", "english": "I like fried rice" },
+        { "indonesian": "Saya suka musik", "english": "I like music" },
+        { "indonesian": "Saya suka pantai", "english": "I like the beach" },
+        { "indonesian": "Saya suka baca", "english": "I like to read" }
+      ]
+    },
+    {
+      "id": 5,
+      "pattern": "Saya tidak [verb]",
+      "english": "I don't [verb]",
+      "description": "Negation",
+      "difficulty": 1,
+      "week": 2,
+      "examples": [
+        { "indonesian": "Saya tidak makan", "english": "I don't eat" },
+        { "indonesian": "Saya tidak tahu", "english": "I don't know" },
+        { "indonesian": "Saya tidak paham", "english": "I don't understand" },
+        { "indonesian": "Saya tidak bisa", "english": "I can't" },
+        { "indonesian": "Saya tidak mau", "english": "I don't want" }
+      ]
+    },
+    {
+      "id": 6,
+      "pattern": "Ada [X]?",
+      "english": "Is there [X]? / Are there [X]?",
+      "description": "Asking about existence",
+      "difficulty": 1,
+      "week": 2,
+      "examples": [
+        { "indonesian": "Ada air?", "english": "Is there water?" },
+        { "indonesian": "Ada wifi?", "english": "Is there wifi?" },
+        { "indonesian": "Ada toilet?", "english": "Is there a toilet?" },
+        { "indonesian": "Ada restoran?", "english": "Is there a restaurant?" },
+        { "indonesian": "Ada taksi?", "english": "Are there taxis?" }
+      ]
+    },
+    {
+      "id": 7,
+      "pattern": "Ada [X] di [Y]",
+      "english": "There is [X] at/in [Y]",
+      "description": "Location of things",
+      "difficulty": 1,
+      "week": 3,
+      "examples": [
+        { "indonesian": "Ada hotel di sini", "english": "There is a hotel here" },
+        { "indonesian": "Ada restoran di sana", "english": "There is a restaurant there" },
+        { "indonesian": "Ada ATM di dekat sini", "english": "There is an ATM nearby" },
+        { "indonesian": "Ada pasar di kota", "english": "There is a market in the city" },
+        { "indonesian": "Ada pantai di Bali", "english": "There are beaches in Bali" }
+      ]
+    },
+    {
+      "id": 8,
+      "pattern": "Di mana [X]?",
+      "english": "Where is [X]?",
+      "description": "Asking for location",
+      "difficulty": 1,
+      "week": 3,
+      "examples": [
+        { "indonesian": "Di mana toilet?", "english": "Where is the toilet?" },
+        { "indonesian": "Di mana hotel?", "english": "Where is the hotel?" },
+        { "indonesian": "Di mana stasiun?", "english": "Where is the station?" },
+        { "indonesian": "Di mana ATM?", "english": "Where is the ATM?" },
+        { "indonesian": "Di mana restoran?", "english": "Where is the restaurant?" }
+      ]
+    },
+    {
+      "id": 9,
+      "pattern": "Berapa [X]?",
+      "english": "How much/many [X]?",
+      "description": "Asking about quantity or price",
+      "difficulty": 1,
+      "week": 3,
+      "examples": [
+        { "indonesian": "Berapa harganya?", "english": "How much is it?" },
+        { "indonesian": "Berapa ini?", "english": "How much is this?" },
+        { "indonesian": "Berapa orang?", "english": "How many people?" },
+        { "indonesian": "Berapa lama?", "english": "How long?" },
+        { "indonesian": "Berapa jauh?", "english": "How far?" }
+      ]
+    },
+    {
+      "id": 10,
+      "pattern": "Apa ini?",
+      "english": "What is this?",
+      "description": "Asking what something is",
+      "difficulty": 1,
+      "week": 3,
+      "examples": [
+        { "indonesian": "Apa ini?", "english": "What is this?" },
+        { "indonesian": "Apa itu?", "english": "What is that?" },
+        { "indonesian": "Apa nama ini?", "english": "What is the name of this?" },
+        { "indonesian": "Apa arti ini?", "english": "What does this mean?" },
+        { "indonesian": "Apa makanan ini?", "english": "What food is this?" }
+      ]
+    },
+    {
+      "id": 11,
+      "pattern": "Kapan [X]?",
+      "english": "When [X]?",
+      "description": "Asking about time",
+      "difficulty": 1,
+      "week": 4,
+      "examples": [
+        { "indonesian": "Kapan berangkat?", "english": "When do we leave?" },
+        { "indonesian": "Kapan tiba?", "english": "When do we arrive?" },
+        { "indonesian": "Kapan buka?", "english": "When does it open?" },
+        { "indonesian": "Kapan tutup?", "english": "When does it close?" },
+        { "indonesian": "Kapan mulai?", "english": "When does it start?" }
+      ]
+    },
+    {
+      "id": 12,
+      "pattern": "Jam berapa [X]?",
+      "english": "What time [X]?",
+      "description": "Asking specific time",
+      "difficulty": 1,
+      "week": 4,
+      "examples": [
+        { "indonesian": "Jam berapa sekarang?", "english": "What time is it now?" },
+        { "indonesian": "Jam berapa buka?", "english": "What time does it open?" },
+        { "indonesian": "Jam berapa tutup?", "english": "What time does it close?" },
+        { "indonesian": "Jam berapa kita pergi?", "english": "What time do we go?" },
+        { "indonesian": "Jam berapa pesawat?", "english": "What time is the flight?" }
+      ]
+    },
+    {
+      "id": 13,
+      "pattern": "Saya pergi ke [X]",
+      "english": "I go to [X]",
+      "description": "Expressing destination",
+      "difficulty": 1,
+      "week": 4,
+      "examples": [
+        { "indonesian": "Saya pergi ke pasar", "english": "I go to the market" },
+        { "indonesian": "Saya pergi ke hotel", "english": "I go to the hotel" },
+        { "indonesian": "Saya pergi ke pantai", "english": "I go to the beach" },
+        { "indonesian": "Saya pergi ke restoran", "english": "I go to the restaurant" },
+        { "indonesian": "Saya pergi ke kantor", "english": "I go to the office" }
+      ]
+    },
+    {
+      "id": 14,
+      "pattern": "Saya dari [X]",
+      "english": "I am from [X]",
+      "description": "Expressing origin",
+      "difficulty": 1,
+      "week": 5,
+      "examples": [
+        { "indonesian": "Saya dari Amerika", "english": "I am from America" },
+        { "indonesian": "Saya dari Australia", "english": "I am from Australia" },
+        { "indonesian": "Saya dari Jakarta", "english": "I am from Jakarta" },
+        { "indonesian": "Saya dari hotel", "english": "I am from the hotel" },
+        { "indonesian": "Saya dari kantor", "english": "I am from the office" }
+      ]
+    },
+    {
+      "id": 15,
+      "pattern": "[X] ini [adjective]",
+      "english": "This [X] is [adjective]",
+      "description": "Describing things",
+      "difficulty": 1,
+      "week": 5,
+      "examples": [
+        { "indonesian": "Makanan ini enak", "english": "This food is delicious" },
+        { "indonesian": "Hotel ini bagus", "english": "This hotel is good" },
+        { "indonesian": "Cuaca ini panas", "english": "This weather is hot" },
+        { "indonesian": "Harga ini mahal", "english": "This price is expensive" },
+        { "indonesian": "Kamar ini besar", "english": "This room is big" }
+      ]
+    },
+    {
+      "id": 16,
+      "pattern": "Saya perlu [X]",
+      "english": "I need [X]",
+      "description": "Expressing necessity",
+      "difficulty": 1,
+      "week": 5,
+      "examples": [
+        { "indonesian": "Saya perlu bantuan", "english": "I need help" },
+        { "indonesian": "Saya perlu dokter", "english": "I need a doctor" },
+        { "indonesian": "Saya perlu taksi", "english": "I need a taxi" },
+        { "indonesian": "Saya perlu air", "english": "I need water" },
+        { "indonesian": "Saya perlu istirahat", "english": "I need rest" }
+      ]
+    },
+    {
+      "id": 17,
+      "pattern": "Tolong [verb]",
+      "english": "Please [verb]",
+      "description": "Polite request",
+      "difficulty": 1,
+      "week": 6,
+      "examples": [
+        { "indonesian": "Tolong bantu", "english": "Please help" },
+        { "indonesian": "Tolong tunggu", "english": "Please wait" },
+        { "indonesian": "Tolong panggil", "english": "Please call" },
+        { "indonesian": "Tolong bicara pelan", "english": "Please speak slowly" },
+        { "indonesian": "Tolong ulangi", "english": "Please repeat" }
+      ]
+    },
+    {
+      "id": 18,
+      "pattern": "Boleh [verb]?",
+      "english": "May I [verb]? / Can I [verb]?",
+      "description": "Asking permission",
+      "difficulty": 1,
+      "week": 6,
+      "examples": [
+        { "indonesian": "Boleh duduk?", "english": "May I sit?" },
+        { "indonesian": "Boleh masuk?", "english": "May I enter?" },
+        { "indonesian": "Boleh lihat?", "english": "May I see?" },
+        { "indonesian": "Boleh coba?", "english": "May I try?" },
+        { "indonesian": "Boleh tanya?", "english": "May I ask?" }
+      ]
+    },
+    {
+      "id": 19,
+      "pattern": "Jangan [verb]",
+      "english": "Don't [verb]",
+      "description": "Negative command",
+      "difficulty": 1,
+      "week": 6,
+      "examples": [
+        { "indonesian": "Jangan khawatir", "english": "Don't worry" },
+        { "indonesian": "Jangan makan", "english": "Don't eat" },
+        { "indonesian": "Jangan pergi", "english": "Don't go" },
+        { "indonesian": "Jangan lupa", "english": "Don't forget" },
+        { "indonesian": "Jangan sentuh", "english": "Don't touch" }
+      ]
+    },
+    {
+      "id": 20,
+      "pattern": "Saya akan [verb]",
+      "english": "I will [verb]",
+      "description": "Future action",
+      "difficulty": 2,
+      "week": 7,
+      "examples": [
+        { "indonesian": "Saya akan pergi", "english": "I will go" },
+        { "indonesian": "Saya akan datang", "english": "I will come" },
+        { "indonesian": "Saya akan makan", "english": "I will eat" },
+        { "indonesian": "Saya akan beli", "english": "I will buy" },
+        { "indonesian": "Saya akan kembali", "english": "I will return" }
+      ]
+    },
+    {
+      "id": 21,
+      "pattern": "Saya sedang [verb]",
+      "english": "I am [verb]ing",
+      "description": "Progressive/continuous action",
+      "difficulty": 2,
+      "week": 7,
+      "examples": [
+        { "indonesian": "Saya sedang makan", "english": "I am eating" },
+        { "indonesian": "Saya sedang belajar", "english": "I am studying" },
+        { "indonesian": "Saya sedang tunggu", "english": "I am waiting" },
+        { "indonesian": "Saya sedang kerja", "english": "I am working" },
+        { "indonesian": "Saya sedang jalan", "english": "I am walking" }
+      ]
+    },
+    {
+      "id": 22,
+      "pattern": "Saya sudah [verb]",
+      "english": "I have [verb]ed / I already [verb]ed",
+      "description": "Completed action",
+      "difficulty": 2,
+      "week": 8,
+      "examples": [
+        { "indonesian": "Saya sudah makan", "english": "I have eaten" },
+        { "indonesian": "Saya sudah tiba", "english": "I have arrived" },
+        { "indonesian": "Saya sudah bayar", "english": "I have paid" },
+        { "indonesian": "Saya sudah selesai", "english": "I have finished" },
+        { "indonesian": "Saya sudah coba", "english": "I have tried" }
+      ]
+    },
+    {
+      "id": 23,
+      "pattern": "Saya belum [verb]",
+      "english": "I haven't [verb]ed yet",
+      "description": "Action not yet done",
+      "difficulty": 2,
+      "week": 8,
+      "examples": [
+        { "indonesian": "Saya belum makan", "english": "I haven't eaten yet" },
+        { "indonesian": "Saya belum bayar", "english": "I haven't paid yet" },
+        { "indonesian": "Saya belum tahu", "english": "I don't know yet" },
+        { "indonesian": "Saya belum siap", "english": "I'm not ready yet" },
+        { "indonesian": "Saya belum selesai", "english": "I haven't finished yet" }
+      ]
+    },
+    {
+      "id": 24,
+      "pattern": "Lebih [adjective] dari [X]",
+      "english": "More [adjective] than [X]",
+      "description": "Comparison",
+      "difficulty": 2,
+      "week": 9,
+      "examples": [
+        { "indonesian": "Lebih besar dari ini", "english": "Bigger than this" },
+        { "indonesian": "Lebih murah dari itu", "english": "Cheaper than that" },
+        { "indonesian": "Lebih enak dari kemarin", "english": "More delicious than yesterday" },
+        { "indonesian": "Lebih dekat dari hotel", "english": "Closer than the hotel" },
+        { "indonesian": "Lebih bagus dari sana", "english": "Better than there" }
+      ]
+    },
+    {
+      "id": 25,
+      "pattern": "Paling [adjective]",
+      "english": "The most [adjective] / The [adjective]est",
+      "description": "Superlative",
+      "difficulty": 2,
+      "week": 9,
+      "examples": [
+        { "indonesian": "Paling murah", "english": "The cheapest" },
+        { "indonesian": "Paling enak", "english": "The most delicious" },
+        { "indonesian": "Paling besar", "english": "The biggest" },
+        { "indonesian": "Paling dekat", "english": "The closest" },
+        { "indonesian": "Paling bagus", "english": "The best" }
+      ]
+    },
+    {
+      "id": 26,
+      "pattern": "Kalau [X], [Y]",
+      "english": "If [X], [Y]",
+      "description": "Conditional",
+      "difficulty": 2,
+      "week": 10,
+      "examples": [
+        { "indonesian": "Kalau hujan, saya di rumah", "english": "If it rains, I stay home" },
+        { "indonesian": "Kalau murah, saya beli", "english": "If it's cheap, I'll buy it" },
+        { "indonesian": "Kalau bisa, tolong bantu", "english": "If you can, please help" },
+        { "indonesian": "Kalau tidak sibuk, datang", "english": "If not busy, come" },
+        { "indonesian": "Kalau lapar, makan", "english": "If hungry, eat" }
+      ]
+    },
+    {
+      "id": 27,
+      "pattern": "Karena [X], [Y]",
+      "english": "Because [X], [Y]",
+      "description": "Cause and effect",
+      "difficulty": 2,
+      "week": 10,
+      "examples": [
+        { "indonesian": "Karena hujan, saya tidak pergi", "english": "Because it's raining, I don't go" },
+        { "indonesian": "Karena capek, saya tidur", "english": "Because I'm tired, I sleep" },
+        { "indonesian": "Karena lapar, saya makan", "english": "Because I'm hungry, I eat" },
+        { "indonesian": "Karena mahal, saya tidak beli", "english": "Because it's expensive, I don't buy" },
+        { "indonesian": "Karena sakit, saya istirahat", "english": "Because I'm sick, I rest" }
+      ]
+    },
+    {
+      "id": 28,
+      "pattern": "Untuk [X]",
+      "english": "For [X] / To [X]",
+      "description": "Purpose",
+      "difficulty": 2,
+      "week": 11,
+      "examples": [
+        { "indonesian": "Untuk makan", "english": "For eating / To eat" },
+        { "indonesian": "Untuk siapa?", "english": "For whom?" },
+        { "indonesian": "Untuk saya", "english": "For me" },
+        { "indonesian": "Untuk belajar", "english": "For studying" },
+        { "indonesian": "Untuk pergi", "english": "To go" }
+      ]
+    },
+    {
+      "id": 29,
+      "pattern": "Dengan [X]",
+      "english": "With [X]",
+      "description": "Accompaniment or method",
+      "difficulty": 2,
+      "week": 11,
+      "examples": [
+        { "indonesian": "Dengan teman", "english": "With a friend" },
+        { "indonesian": "Dengan keluarga", "english": "With family" },
+        { "indonesian": "Dengan mobil", "english": "By car / With a car" },
+        { "indonesian": "Dengan hati-hati", "english": "Carefully / With care" },
+        { "indonesian": "Dengan senang hati", "english": "With pleasure / Gladly" }
+      ]
+    },
+    {
+      "id": 30,
+      "pattern": "Tanpa [X]",
+      "english": "Without [X]",
+      "description": "Absence",
+      "difficulty": 2,
+      "week": 12,
+      "examples": [
+        { "indonesian": "Tanpa gula", "english": "Without sugar" },
+        { "indonesian": "Tanpa es", "english": "Without ice" },
+        { "indonesian": "Tanpa uang", "english": "Without money" },
+        { "indonesian": "Tanpa bantuan", "english": "Without help" },
+        { "indonesian": "Tanpa dia", "english": "Without him/her" }
+      ]
+    }
+  ],
+  "difficulty_levels": {
+    "1": "Beginner",
+    "2": "Elementary",
+    "3": "Intermediate"
+  }
+}

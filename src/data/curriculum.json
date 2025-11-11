@@ -1,0 +1,619 @@
+{
+  "curriculum": {
+    "week_1": {
+      "title": "Getting Started - Basic Statements",
+      "goal": "Make your first Indonesian sentences",
+      "topics": ["Pronouns", "Basic verbs", "Simple statements", "Greetings"],
+      "verbs": [1, 2, 3, 4, 7, 8],
+      "patterns": [1, 2, 3],
+      "vocabulary": ["pronouns", "greetings", "food"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Hello Indonesia!",
+          "content": "Learn basic greetings and introduce yourself",
+          "exercises": [
+            { "type": "vocab", "items": ["halo", "selamat pagi", "terima kasih", "maaf"] },
+            { "type": "pattern", "pattern_id": 1, "practice_count": 5 },
+            { "type": "dialog", "scenario": "greeting" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I want coffee!",
+          "content": "Express your wants and needs",
+          "exercises": [
+            { "type": "vocab", "items": ["kopi", "air", "nasi", "roti"] },
+            { "type": "pattern", "pattern_id": 2, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [1, 2, 7] }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "I can do it!",
+          "content": "Talk about abilities and skills",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 3, "practice_count": 10 },
+            { "type": "svo_constructor", "verb_ids": [8] },
+            { "type": "dialog", "scenario": "cafe_order" }
+          ]
+        }
+      ]
+    },
+    "week_2": {
+      "title": "Likes, Dislikes & Negation",
+      "goal": "Express preferences and say 'no'",
+      "topics": ["Preferences", "Negation", "Questions", "Numbers"],
+      "verbs": [9, 10, 29, 30],
+      "patterns": [4, 5, 6],
+      "vocabulary": ["numbers", "food"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "I like Indonesian food",
+          "content": "Express what you like and dislike",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 4, "practice_count": 10 },
+            { "type": "vocab", "category": "food" },
+            { "type": "verb_practice", "verb_ids": [29, 30] }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I don't understand",
+          "content": "Using negation in Indonesian",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 5, "practice_count": 10 },
+            { "type": "svo_constructor", "negation": true },
+            { "type": "dialog", "scenario": "misunderstanding" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Is there...?",
+          "content": "Ask if something exists",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 6, "practice_count": 10 },
+            { "type": "vocab", "category": "places" },
+            { "type": "dialog", "scenario": "asking_facilities" }
+          ]
+        }
+      ]
+    },
+    "week_3": {
+      "title": "Places & Questions",
+      "goal": "Ask where things are and understand directions",
+      "topics": ["Locations", "Questions", "Directions", "Time expressions"],
+      "verbs": [3, 4, 40, 41],
+      "patterns": [7, 8, 9, 10],
+      "vocabulary": ["places", "directions", "time"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Where is the hotel?",
+          "content": "Ask for locations and directions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 8, "practice_count": 10 },
+            { "type": "vocab", "category": "places" },
+            { "type": "dialog", "scenario": "asking_directions" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "There is a restaurant here",
+          "content": "Describe locations of places",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 7, "practice_count": 10 },
+            { "type": "vocab", "category": "directions" },
+            { "type": "svo_constructor", "with_location": true }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "How much is it?",
+          "content": "Ask about prices and quantities",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 9, "practice_count": 10 },
+            { "type": "vocab", "category": "numbers" },
+            { "type": "dialog", "scenario": "shopping_price" }
+          ]
+        }
+      ]
+    },
+    "week_4": {
+      "title": "Time & Movement",
+      "goal": "Talk about when and where you're going",
+      "topics": ["Time", "Movement verbs", "Destinations", "Schedules"],
+      "verbs": [3, 4, 36, 37, 38, 39, 40],
+      "patterns": [11, 12, 13],
+      "vocabulary": ["time", "transportation"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "When does it open?",
+          "content": "Ask and tell time",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 11, "practice_count": 10 },
+            { "type": "pattern", "pattern_id": 12, "practice_count": 10 },
+            { "type": "vocab", "category": "time" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I'm going to the beach",
+          "content": "Talk about destinations",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 13, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [3, 36, 40] },
+            { "type": "dialog", "scenario": "taking_taxi" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Review Week 1-4",
+          "content": "Practice everything learned so far",
+          "exercises": [
+            { "type": "mixed_review", "patterns": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] },
+            { "type": "dialog", "scenario": "comprehensive_1" }
+          ]
+        }
+      ]
+    },
+    "week_5": {
+      "title": "Describing Things",
+      "goal": "Use adjectives to describe people and things",
+      "topics": ["Adjectives", "Colors", "Sizes", "Origin"],
+      "verbs": [5, 16, 17, 26],
+      "patterns": [14, 15, 16],
+      "vocabulary": ["adjectives", "colors"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "This food is delicious!",
+          "content": "Describe things with adjectives",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 15, "practice_count": 10 },
+            { "type": "vocab", "category": "adjectives" },
+            { "type": "dialog", "scenario": "restaurant_review" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I'm from America",
+          "content": "Talk about where you're from",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 14, "practice_count": 10 },
+            { "type": "svo_constructor", "with_origin": true }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "I need help",
+          "content": "Express necessity",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 16, "practice_count": 10 },
+            { "type": "dialog", "scenario": "asking_help" }
+          ]
+        }
+      ]
+    },
+    "week_6": {
+      "title": "Polite Requests & Commands",
+      "goal": "Make polite requests and give/understand commands",
+      "topics": ["Politeness", "Requests", "Commands", "Family"],
+      "verbs": [47, 48, 49, 52],
+      "patterns": [17, 18, 19],
+      "vocabulary": ["family", "common_words"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Please help me",
+          "content": "Make polite requests",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 17, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [52, 48] },
+            { "type": "dialog", "scenario": "asking_favor" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "May I...?",
+          "content": "Ask for permission",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 18, "practice_count": 10 },
+            { "type": "dialog", "scenario": "asking_permission" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Don't worry!",
+          "content": "Give commands and instructions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 19, "practice_count": 10 },
+            { "type": "vocab", "category": "family" }
+          ]
+        }
+      ]
+    },
+    "week_7": {
+      "title": "Future Plans",
+      "goal": "Talk about future actions and plans",
+      "topics": ["Future tense", "Plans", "Transportation", "Travel"],
+      "verbs": [3, 23, 40, 41, 55],
+      "patterns": [20, 21],
+      "vocabulary": ["transportation"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "I will go tomorrow",
+          "content": "Express future actions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 20, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [3, 40] },
+            { "type": "dialog", "scenario": "making_plans" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I'm eating now",
+          "content": "Talk about ongoing actions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 21, "practice_count": 10 },
+            { "type": "svo_constructor", "progressive": true }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Transportation & Travel",
+          "content": "Talk about how you travel",
+          "exercises": [
+            { "type": "vocab", "category": "transportation" },
+            { "type": "dialog", "scenario": "buying_ticket" }
+          ]
+        }
+      ]
+    },
+    "week_8": {
+      "title": "Completed Actions",
+      "goal": "Talk about what you've done or haven't done yet",
+      "topics": ["Past completion", "Shopping", "Experience"],
+      "verbs": [9, 10, 54, 55, 56],
+      "patterns": [22, 23],
+      "vocabulary": ["shopping"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "I have eaten",
+          "content": "Express completed actions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 22, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [1, 2, 9, 54] }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "I haven't paid yet",
+          "content": "Express actions not yet done",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 23, "practice_count": 10 },
+            { "type": "dialog", "scenario": "shopping" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Review Week 5-8",
+          "content": "Consolidate your knowledge",
+          "exercises": [
+            { "type": "mixed_review", "patterns": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23] },
+            { "type": "dialog", "scenario": "comprehensive_2" }
+          ]
+        }
+      ]
+    },
+    "week_9": {
+      "title": "Comparisons",
+      "goal": "Compare things and express preferences",
+      "topics": ["Comparatives", "Superlatives", "Body parts", "Descriptions"],
+      "verbs": [5, 29, 56],
+      "patterns": [24, 25],
+      "vocabulary": ["body", "adjectives"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "This is bigger than that",
+          "content": "Make comparisons",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 24, "practice_count": 10 },
+            { "type": "vocab", "category": "adjectives" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "The best restaurant",
+          "content": "Use superlatives",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 25, "practice_count": 10 },
+            { "type": "dialog", "scenario": "recommendation" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Body parts",
+          "content": "Learn to describe health issues",
+          "exercises": [
+            { "type": "vocab", "category": "body" },
+            { "type": "dialog", "scenario": "doctor_visit" }
+          ]
+        }
+      ]
+    },
+    "week_10": {
+      "title": "Conditionals & Reasons",
+      "goal": "Express conditions and give reasons",
+      "topics": ["If/then", "Because", "Weather", "Health"],
+      "verbs": [89, 91],
+      "patterns": [26, 27],
+      "vocabulary": ["health", "weather"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "If it rains...",
+          "content": "Express conditions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 26, "practice_count": 10 },
+            { "type": "vocab", "category": "weather" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Because I'm tired",
+          "content": "Give reasons for actions",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 27, "practice_count": 10 },
+            { "type": "dialog", "scenario": "explaining_reason" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Health & Wellness",
+          "content": "Talk about health issues",
+          "exercises": [
+            { "type": "vocab", "category": "health" },
+            { "type": "dialog", "scenario": "pharmacy" }
+          ]
+        }
+      ]
+    },
+    "week_11": {
+      "title": "Purpose & Method",
+      "goal": "Express purpose and describe how things are done",
+      "topics": ["Purpose (for/to)", "Method (with/by)", "Work", "Professions"],
+      "verbs": [13, 14, 52],
+      "patterns": [28, 29],
+      "vocabulary": ["work"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "For what purpose?",
+          "content": "Express purpose",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 28, "practice_count": 10 },
+            { "type": "verb_practice", "verb_ids": [13, 14] }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "With whom? By what?",
+          "content": "Express accompaniment and method",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 29, "practice_count": 10 },
+            { "type": "dialog", "scenario": "work_discussion" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Work & Professions",
+          "content": "Talk about jobs and careers",
+          "exercises": [
+            { "type": "vocab", "category": "work" },
+            { "type": "dialog", "scenario": "job_interview" }
+          ]
+        }
+      ]
+    },
+    "week_12": {
+      "title": "Complex Expressions",
+      "goal": "Master advanced expressions and common phrases",
+      "topics": ["Without", "Complex sentences", "Common expressions"],
+      "verbs": [26, 27, 28, 59],
+      "patterns": [30],
+      "vocabulary": ["common_words"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Without sugar please",
+          "content": "Express absence",
+          "exercises": [
+            { "type": "pattern", "pattern_id": 30, "practice_count": 10 },
+            { "type": "dialog", "scenario": "specific_order" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Review Week 9-12",
+          "content": "Practice advanced patterns",
+          "exercises": [
+            { "type": "mixed_review", "patterns": [24, 25, 26, 27, 28, 29, 30] },
+            { "type": "dialog", "scenario": "comprehensive_3" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Common expressions",
+          "content": "Master everyday phrases",
+          "exercises": [
+            { "type": "vocab", "category": "common_words" },
+            { "type": "free_practice" }
+          ]
+        }
+      ]
+    },
+    "week_13": {
+      "title": "Travel & Accommodation",
+      "goal": "Handle travel situations confidently",
+      "topics": ["Hotels", "Travel", "Services", "Problems"],
+      "verbs": [23, 41, 43, 44, 55],
+      "patterns": [2, 8, 16, 17],
+      "vocabulary": ["hotel", "places"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Checking into a hotel",
+          "content": "Hotel vocabulary and phrases",
+          "exercises": [
+            { "type": "vocab", "category": "hotel" },
+            { "type": "dialog", "scenario": "hotel_checkin" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Hotel problems",
+          "content": "Handle issues at accommodation",
+          "exercises": [
+            { "type": "dialog", "scenario": "hotel_complaint" },
+            { "type": "pattern", "pattern_id": 16, "practice_count": 5 }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Asking for services",
+          "content": "Request hotel services",
+          "exercises": [
+            { "type": "dialog", "scenario": "hotel_services" },
+            { "type": "free_practice" }
+          ]
+        }
+      ]
+    },
+    "week_14": {
+      "title": "Restaurants & Food",
+      "goal": "Order food like a local",
+      "topics": ["Menu reading", "Ordering", "Preferences", "Payment"],
+      "verbs": [1, 2, 55, 54, 56],
+      "patterns": [2, 4, 9, 30],
+      "vocabulary": ["food"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Reading the menu",
+          "content": "Understand Indonesian menus",
+          "exercises": [
+            { "type": "vocab", "category": "food" },
+            { "type": "dialog", "scenario": "restaurant_arrival" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Ordering your meal",
+          "content": "Place orders with preferences",
+          "exercises": [
+            { "type": "dialog", "scenario": "ordering_food" },
+            { "type": "pattern", "pattern_id": 30, "practice_count": 5 }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Paying the bill",
+          "content": "Handle restaurant payment",
+          "exercises": [
+            { "type": "dialog", "scenario": "paying_bill" },
+            { "type": "verb_practice", "verb_ids": [54] }
+          ]
+        }
+      ]
+    },
+    "week_15": {
+      "title": "Shopping & Bargaining",
+      "goal": "Shop confidently and negotiate prices",
+      "topics": ["Shopping", "Prices", "Bargaining", "Descriptions"],
+      "verbs": [9, 10, 23, 56],
+      "patterns": [9, 15, 24, 25],
+      "vocabulary": ["shopping", "colors"],
+      "lessons": [
+        {
+          "day": 1,
+          "title": "At the market",
+          "content": "Shop at traditional markets",
+          "exercises": [
+            { "type": "vocab", "category": "shopping" },
+            { "type": "dialog", "scenario": "market_shopping" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Bargaining basics",
+          "content": "Negotiate prices politely",
+          "exercises": [
+            { "type": "dialog", "scenario": "bargaining" },
+            { "type": "pattern", "pattern_id": 9, "practice_count": 10 }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Describing what you want",
+          "content": "Ask for specific items",
+          "exercises": [
+            { "type": "vocab", "category": "colors" },
+            { "type": "dialog", "scenario": "specific_shopping" }
+          ]
+        }
+      ]
+    },
+    "week_16": {
+      "title": "Free Conversation",
+      "goal": "Put it all together - speak freely!",
+      "topics": ["Review all", "Natural conversation", "Cultural tips"],
+      "verbs": "all",
+      "patterns": "all",
+      "vocabulary": "all",
+      "lessons": [
+        {
+          "day": 1,
+          "title": "Comprehensive Review",
+          "content": "Review all patterns and vocabulary",
+          "exercises": [
+            { "type": "mixed_review", "patterns": "all" },
+            { "type": "vocab_review", "categories": "all" }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Real conversations",
+          "content": "Practice natural dialogues",
+          "exercises": [
+            { "type": "dialog", "scenario": "making_friends" },
+            { "type": "dialog", "scenario": "travel_chat" },
+            { "type": "dialog", "scenario": "daily_life" }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "You did it!",
+          "content": "Celebrate your achievement and plan next steps",
+          "exercises": [
+            { "type": "final_assessment" },
+            { "type": "free_conversation" },
+            { "type": "culture_tips" }
+          ]
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "total_weeks": 16,
+    "total_lessons": 48,
+    "total_verbs": 100,
+    "total_patterns": 30,
+    "estimated_completion_time": "16 weeks at 10-20 minutes per day"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "vocabulary": {
+    "pronouns": {
+      "name": "Pronouns",
+      "week": 1,
+      "words": [
+        { "indonesian": "saya", "english": "I, me", "audio": "/audio/vocab/saya.mp3" },
+        { "indonesian": "kamu", "english": "you (informal)", "audio": "/audio/vocab/kamu.mp3" },
+        { "indonesian": "anda", "english": "you (formal)", "audio": "/audio/vocab/anda.mp3" },
+        { "indonesian": "dia", "english": "he, she, him, her", "audio": "/audio/vocab/dia.mp3" },
+        { "indonesian": "kami", "english": "we, us (exclusive)", "audio": "/audio/vocab/kami.mp3" },
+        { "indonesian": "kita", "english": "we, us (inclusive)", "audio": "/audio/vocab/kita.mp3" },
+        { "indonesian": "mereka", "english": "they, them", "audio": "/audio/vocab/mereka.mp3" },
+        { "indonesian": "ini", "english": "this", "audio": "/audio/vocab/ini.mp3" },
+        { "indonesian": "itu", "english": "that", "audio": "/audio/vocab/itu.mp3" }
+      ]
+    },
+    "food": {
+      "name": "Food & Drinks",
+      "week": 1,
+      "words": [
+        { "indonesian": "nasi", "english": "rice", "audio": "/audio/vocab/nasi.mp3" },
+        { "indonesian": "roti", "english": "bread", "audio": "/audio/vocab/roti.mp3" },
+        { "indonesian": "ayam", "english": "chicken", "audio": "/audio/vocab/ayam.mp3" },
+        { "indonesian": "ikan", "english": "fish", "audio": "/audio/vocab/ikan.mp3" },
+        { "indonesian": "daging", "english": "meat", "audio": "/audio/vocab/daging.mp3" },
+        { "indonesian": "sayur", "english": "vegetables", "audio": "/audio/vocab/sayur.mp3" },
+        { "indonesian": "buah", "english": "fruit", "audio": "/audio/vocab/buah.mp3" },
+        { "indonesian": "telur", "english": "egg", "audio": "/audio/vocab/telur.mp3" },
+        { "indonesian": "mie", "english": "noodles", "audio": "/audio/vocab/mie.mp3" },
+        { "indonesian": "sup", "english": "soup", "audio": "/audio/vocab/sup.mp3" },
+        { "indonesian": "kopi", "english": "coffee", "audio": "/audio/vocab/kopi.mp3" },
+        { "indonesian": "teh", "english": "tea", "audio": "/audio/vocab/teh.mp3" },
+        { "indonesian": "air", "english": "water", "audio": "/audio/vocab/air.mp3" },
+        { "indonesian": "susu", "english": "milk", "audio": "/audio/vocab/susu.mp3" },
+        { "indonesian": "jus", "english": "juice", "audio": "/audio/vocab/jus.mp3" },
+        { "indonesian": "gula", "english": "sugar", "audio": "/audio/vocab/gula.mp3" },
+        { "indonesian": "garam", "english": "salt", "audio": "/audio/vocab/garam.mp3" },
+        { "indonesian": "pedas", "english": "spicy", "audio": "/audio/vocab/pedas.mp3" },
+        { "indonesian": "manis", "english": "sweet", "audio": "/audio/vocab/manis.mp3" },
+        { "indonesian": "enak", "english": "delicious", "audio": "/audio/vocab/enak.mp3" }
+      ]
+    },
+    "numbers": {
+      "name": "Numbers",
+      "week": 2,
+      "words": [
+        { "indonesian": "nol", "english": "zero", "audio": "/audio/vocab/nol.mp3" },
+        { "indonesian": "satu", "english": "one", "audio": "/audio/vocab/satu.mp3" },
+        { "indonesian": "dua", "english": "two", "audio": "/audio/vocab/dua.mp3" },
+        { "indonesian": "tiga", "english": "three", "audio": "/audio/vocab/tiga.mp3" },
+        { "indonesian": "empat", "english": "four", "audio": "/audio/vocab/empat.mp3" },
+        { "indonesian": "lima", "english": "five", "audio": "/audio/vocab/lima.mp3" },
+        { "indonesian": "enam", "english": "six", "audio": "/audio/vocab/enam.mp3" },
+        { "indonesian": "tujuh", "english": "seven", "audio": "/audio/vocab/tujuh.mp3" },
+        { "indonesian": "delapan", "english": "eight", "audio": "/audio/vocab/delapan.mp3" },
+        { "indonesian": "sembilan", "english": "nine", "audio": "/audio/vocab/sembilan.mp3" },
+        { "indonesian": "sepuluh", "english": "ten", "audio": "/audio/vocab/sepuluh.mp3" },
+        { "indonesian": "dua puluh", "english": "twenty", "audio": "/audio/vocab/dua_puluh.mp3" },
+        { "indonesian": "seratus", "english": "one hundred", "audio": "/audio/vocab/seratus.mp3" },
+        { "indonesian": "seribu", "english": "one thousand", "audio": "/audio/vocab/seribu.mp3" }
+      ]
+    },
+    "time": {
+      "name": "Time",
+      "week": 3,
+      "words": [
+        { "indonesian": "pagi", "english": "morning", "audio": "/audio/vocab/pagi.mp3" },
+        { "indonesian": "siang", "english": "noon, afternoon", "audio": "/audio/vocab/siang.mp3" },
+        { "indonesian": "sore", "english": "late afternoon", "audio": "/audio/vocab/sore.mp3" },
+        { "indonesian": "malam", "english": "evening, night", "audio": "/audio/vocab/malam.mp3" },
+        { "indonesian": "hari", "english": "day", "audio": "/audio/vocab/hari.mp3" },
+        { "indonesian": "minggu", "english": "week", "audio": "/audio/vocab/minggu.mp3" },
+        { "indonesian": "bulan", "english": "month", "audio": "/audio/vocab/bulan.mp3" },
+        { "indonesian": "tahun", "english": "year", "audio": "/audio/vocab/tahun.mp3" },
+        { "indonesian": "jam", "english": "hour, clock", "audio": "/audio/vocab/jam.mp3" },
+        { "indonesian": "menit", "english": "minute", "audio": "/audio/vocab/menit.mp3" },
+        { "indonesian": "sekarang", "english": "now", "audio": "/audio/vocab/sekarang.mp3" },
+        { "indonesian": "nanti", "english": "later", "audio": "/audio/vocab/nanti.mp3" },
+        { "indonesian": "kemarin", "english": "yesterday", "audio": "/audio/vocab/kemarin.mp3" },
+        { "indonesian": "hari ini", "english": "today", "audio": "/audio/vocab/hari_ini.mp3" },
+        { "indonesian": "besok", "english": "tomorrow", "audio": "/audio/vocab/besok.mp3" },
+        { "indonesian": "lusa", "english": "day after tomorrow", "audio": "/audio/vocab/lusa.mp3" },
+        { "indonesian": "dulu", "english": "before, formerly", "audio": "/audio/vocab/dulu.mp3" }
+      ]
+    },
+    "places": {
+      "name": "Places",
+      "week": 4,
+      "words": [
+        { "indonesian": "rumah", "english": "house, home", "audio": "/audio/vocab/rumah.mp3" },
+        { "indonesian": "hotel", "english": "hotel", "audio": "/audio/vocab/hotel.mp3" },
+        { "indonesian": "restoran", "english": "restaurant", "audio": "/audio/vocab/restoran.mp3" },
+        { "indonesian": "kafe", "english": "cafe", "audio": "/audio/vocab/kafe.mp3" },
+        { "indonesian": "pasar", "english": "market", "audio": "/audio/vocab/pasar.mp3" },
+        { "indonesian": "toko", "english": "shop, store", "audio": "/audio/vocab/toko.mp3" },
+        { "indonesian": "bank", "english": "bank", "audio": "/audio/vocab/bank.mp3" },
+        { "indonesian": "kantor", "english": "office", "audio": "/audio/vocab/kantor.mp3" },
+        { "indonesian": "sekolah", "english": "school", "audio": "/audio/vocab/sekolah.mp3" },
+        { "indonesian": "universitas", "english": "university", "audio": "/audio/vocab/universitas.mp3" },
+        { "indonesian": "rumah sakit", "english": "hospital", "audio": "/audio/vocab/rumah_sakit.mp3" },
+        { "indonesian": "bandara", "english": "airport", "audio": "/audio/vocab/bandara.mp3" },
+        { "indonesian": "stasiun", "english": "station", "audio": "/audio/vocab/stasiun.mp3" },
+        { "indonesian": "pantai", "english": "beach", "audio": "/audio/vocab/pantai.mp3" },
+        { "indonesian": "gunung", "english": "mountain", "audio": "/audio/vocab/gunung.mp3" },
+        { "indonesian": "taman", "english": "park, garden", "audio": "/audio/vocab/taman.mp3" },
+        { "indonesian": "jalan", "english": "road, street", "audio": "/audio/vocab/jalan.mp3" },
+        { "indonesian": "kota", "english": "city", "audio": "/audio/vocab/kota.mp3" },
+        { "indonesian": "desa", "english": "village", "audio": "/audio/vocab/desa.mp3" }
+      ]
+    },
+    "directions": {
+      "name": "Directions & Location",
+      "week": 4,
+      "words": [
+        { "indonesian": "di", "english": "at, in, on", "audio": "/audio/vocab/di.mp3" },
+        { "indonesian": "ke", "english": "to", "audio": "/audio/vocab/ke.mp3" },
+        { "indonesian": "dari", "english": "from", "audio": "/audio/vocab/dari.mp3" },
+        { "indonesian": "di sini", "english": "here", "audio": "/audio/vocab/di_sini.mp3" },
+        { "indonesian": "di sana", "english": "there", "audio": "/audio/vocab/di_sana.mp3" },
+        { "indonesian": "di mana", "english": "where", "audio": "/audio/vocab/di_mana.mp3" },
+        { "indonesian": "kanan", "english": "right", "audio": "/audio/vocab/kanan.mp3" },
+        { "indonesian": "kiri", "english": "left", "audio": "/audio/vocab/kiri.mp3" },
+        { "indonesian": "lurus", "english": "straight", "audio": "/audio/vocab/lurus.mp3" },
+        { "indonesian": "dekat", "english": "near, close", "audio": "/audio/vocab/dekat.mp3" },
+        { "indonesian": "jauh", "english": "far", "audio": "/audio/vocab/jauh.mp3" },
+        { "indonesian": "depan", "english": "front", "audio": "/audio/vocab/depan.mp3" },
+        { "indonesian": "belakang", "english": "back, behind", "audio": "/audio/vocab/belakang.mp3" },
+        { "indonesian": "atas", "english": "top, above", "audio": "/audio/vocab/atas.mp3" },
+        { "indonesian": "bawah", "english": "bottom, below", "audio": "/audio/vocab/bawah.mp3" },
+        { "indonesian": "dalam", "english": "inside", "audio": "/audio/vocab/dalam.mp3" },
+        { "indonesian": "luar", "english": "outside", "audio": "/audio/vocab/luar.mp3" }
+      ]
+    },
+    "adjectives": {
+      "name": "Common Adjectives",
+      "week": 5,
+      "words": [
+        { "indonesian": "besar", "english": "big, large", "audio": "/audio/vocab/besar.mp3" },
+        { "indonesian": "kecil", "english": "small", "audio": "/audio/vocab/kecil.mp3" },
+        { "indonesian": "banyak", "english": "many, much", "audio": "/audio/vocab/banyak.mp3" },
+        { "indonesian": "sedikit", "english": "few, little", "audio": "/audio/vocab/sedikit.mp3" },
+        { "indonesian": "bagus", "english": "good, nice", "audio": "/audio/vocab/bagus.mp3" },
+        { "indonesian": "buruk", "english": "bad", "audio": "/audio/vocab/buruk.mp3" },
+        { "indonesian": "baik", "english": "good, well", "audio": "/audio/vocab/baik.mp3" },
+        { "indonesian": "baru", "english": "new", "audio": "/audio/vocab/baru.mp3" },
+        { "indonesian": "lama", "english": "old, long (time)", "audio": "/audio/vocab/lama.mp3" },
+        { "indonesian": "muda", "english": "young", "audio": "/audio/vocab/muda.mp3" },
+        { "indonesian": "tua", "english": "old (age)", "audio": "/audio/vocab/tua.mp3" },
+        { "indonesian": "cepat", "english": "fast, quick", "audio": "/audio/vocab/cepat.mp3" },
+        { "indonesian": "lambat", "english": "slow", "audio": "/audio/vocab/lambat.mp3" },
+        { "indonesian": "panas", "english": "hot", "audio": "/audio/vocab/panas.mp3" },
+        { "indonesian": "dingin", "english": "cold", "audio": "/audio/vocab/dingin.mp3" },
+        { "indonesian": "mahal", "english": "expensive", "audio": "/audio/vocab/mahal.mp3" },
+        { "indonesian": "murah", "english": "cheap", "audio": "/audio/vocab/murah.mp3" },
+        { "indonesian": "cantik", "english": "beautiful (for women)", "audio": "/audio/vocab/cantik.mp3" },
+        { "indonesian": "ganteng", "english": "handsome", "audio": "/audio/vocab/ganteng.mp3" },
+        { "indonesian": "jelek", "english": "ugly", "audio": "/audio/vocab/jelek.mp3" },
+        { "indonesian": "bersih", "english": "clean", "audio": "/audio/vocab/bersih.mp3" },
+        { "indonesian": "kotor", "english": "dirty", "audio": "/audio/vocab/kotor.mp3" }
+      ]
+    },
+    "family": {
+      "name": "Family",
+      "week": 6,
+      "words": [
+        { "indonesian": "keluarga", "english": "family", "audio": "/audio/vocab/keluarga.mp3" },
+        { "indonesian": "orang tua", "english": "parents", "audio": "/audio/vocab/orang_tua.mp3" },
+        { "indonesian": "ayah", "english": "father", "audio": "/audio/vocab/ayah.mp3" },
+        { "indonesian": "ibu", "english": "mother", "audio": "/audio/vocab/ibu.mp3" },
+        { "indonesian": "anak", "english": "child", "audio": "/audio/vocab/anak.mp3" },
+        { "indonesian": "kakak", "english": "older sibling", "audio": "/audio/vocab/kakak.mp3" },
+        { "indonesian": "adik", "english": "younger sibling", "audio": "/audio/vocab/adik.mp3" },
+        { "indonesian": "saudara", "english": "sibling, relative", "audio": "/audio/vocab/saudara.mp3" },
+        { "indonesian": "suami", "english": "husband", "audio": "/audio/vocab/suami.mp3" },
+        { "indonesian": "istri", "english": "wife", "audio": "/audio/vocab/istri.mp3" },
+        { "indonesian": "kakek", "english": "grandfather", "audio": "/audio/vocab/kakek.mp3" },
+        { "indonesian": "nenek", "english": "grandmother", "audio": "/audio/vocab/nenek.mp3" },
+        { "indonesian": "cucu", "english": "grandchild", "audio": "/audio/vocab/cucu.mp3" },
+        { "indonesian": "paman", "english": "uncle", "audio": "/audio/vocab/paman.mp3" },
+        { "indonesian": "bibi", "english": "aunt", "audio": "/audio/vocab/bibi.mp3" }
+      ]
+    },
+    "transportation": {
+      "name": "Transportation",
+      "week": 7,
+      "words": [
+        { "indonesian": "mobil", "english": "car", "audio": "/audio/vocab/mobil.mp3" },
+        { "indonesian": "motor", "english": "motorcycle", "audio": "/audio/vocab/motor.mp3" },
+        { "indonesian": "sepeda", "english": "bicycle", "audio": "/audio/vocab/sepeda.mp3" },
+        { "indonesian": "bus", "english": "bus", "audio": "/audio/vocab/bus.mp3" },
+        { "indonesian": "taksi", "english": "taxi", "audio": "/audio/vocab/taksi.mp3" },
+        { "indonesian": "kereta", "english": "train", "audio": "/audio/vocab/kereta.mp3" },
+        { "indonesian": "pesawat", "english": "airplane", "audio": "/audio/vocab/pesawat.mp3" },
+        { "indonesian": "kapal", "english": "ship, boat", "audio": "/audio/vocab/kapal.mp3" },
+        { "indonesian": "tiket", "english": "ticket", "audio": "/audio/vocab/tiket.mp3" },
+        { "indonesian": "jalan kaki", "english": "walking", "audio": "/audio/vocab/jalan_kaki.mp3" }
+      ]
+    },
+    "shopping": {
+      "name": "Shopping",
+      "week": 8,
+      "words": [
+        { "indonesian": "harga", "english": "price", "audio": "/audio/vocab/harga.mp3" },
+        { "indonesian": "uang", "english": "money", "audio": "/audio/vocab/uang.mp3" },
+        { "indonesian": "bayar", "english": "to pay", "audio": "/audio/vocab/bayar.mp3" },
+        { "indonesian": "beli", "english": "to buy", "audio": "/audio/vocab/beli.mp3" },
+        { "indonesian": "jual", "english": "to sell", "audio": "/audio/vocab/jual.mp3" },
+        { "indonesian": "diskon", "english": "discount", "audio": "/audio/vocab/diskon.mp3" },
+        { "indonesian": "kartu kredit", "english": "credit card", "audio": "/audio/vocab/kartu_kredit.mp3" },
+        { "indonesian": "tunai", "english": "cash", "audio": "/audio/vocab/tunai.mp3" },
+        { "indonesian": "kembalian", "english": "change (money)", "audio": "/audio/vocab/kembalian.mp3" },
+        { "indonesian": "tas", "english": "bag", "audio": "/audio/vocab/tas.mp3" },
+        { "indonesian": "baju", "english": "clothes, shirt", "audio": "/audio/vocab/baju.mp3" },
+        { "indonesian": "celana", "english": "pants", "audio": "/audio/vocab/celana.mp3" },
+        { "indonesian": "sepatu", "english": "shoes", "audio": "/audio/vocab/sepatu.mp3" }
+      ]
+    },
+    "body": {
+      "name": "Body Parts",
+      "week": 9,
+      "words": [
+        { "indonesian": "kepala", "english": "head", "audio": "/audio/vocab/kepala.mp3" },
+        { "indonesian": "rambut", "english": "hair", "audio": "/audio/vocab/rambut.mp3" },
+        { "indonesian": "mata", "english": "eye", "audio": "/audio/vocab/mata.mp3" },
+        { "indonesian": "hidung", "english": "nose", "audio": "/audio/vocab/hidung.mp3" },
+        { "indonesian": "mulut", "english": "mouth", "audio": "/audio/vocab/mulut.mp3" },
+        { "indonesian": "telinga", "english": "ear", "audio": "/audio/vocab/telinga.mp3" },
+        { "indonesian": "gigi", "english": "teeth", "audio": "/audio/vocab/gigi.mp3" },
+        { "indonesian": "leher", "english": "neck", "audio": "/audio/vocab/leher.mp3" },
+        { "indonesian": "tangan", "english": "hand, arm", "audio": "/audio/vocab/tangan.mp3" },
+        { "indonesian": "jari", "english": "finger", "audio": "/audio/vocab/jari.mp3" },
+        { "indonesian": "kaki", "english": "foot, leg", "audio": "/audio/vocab/kaki.mp3" },
+        { "indonesian": "perut", "english": "stomach", "audio": "/audio/vocab/perut.mp3" },
+        { "indonesian": "punggung", "english": "back", "audio": "/audio/vocab/punggung.mp3" }
+      ]
+    },
+    "health": {
+      "name": "Health",
+      "week": 10,
+      "words": [
+        { "indonesian": "sakit", "english": "sick, pain", "audio": "/audio/vocab/sakit.mp3" },
+        { "indonesian": "sehat", "english": "healthy", "audio": "/audio/vocab/sehat.mp3" },
+        { "indonesian": "dokter", "english": "doctor", "audio": "/audio/vocab/dokter.mp3" },
+        { "indonesian": "obat", "english": "medicine", "audio": "/audio/vocab/obat.mp3" },
+        { "indonesian": "apotek", "english": "pharmacy", "audio": "/audio/vocab/apotek.mp3" },
+        { "indonesian": "demam", "english": "fever", "audio": "/audio/vocab/demam.mp3" },
+        { "indonesian": "flu", "english": "flu", "audio": "/audio/vocab/flu.mp3" },
+        { "indonesian": "batuk", "english": "cough", "audio": "/audio/vocab/batuk.mp3" },
+        { "indonesian": "pilek", "english": "cold, runny nose", "audio": "/audio/vocab/pilek.mp3" },
+        { "indonesian": "pusing", "english": "dizzy", "audio": "/audio/vocab/pusing.mp3" },
+        { "indonesian": "lelah", "english": "tired, exhausted", "audio": "/audio/vocab/lelah.mp3" }
+      ]
+    },
+    "weather": {
+      "name": "Weather",
+      "week": 10,
+      "words": [
+        { "indonesian": "cuaca", "english": "weather", "audio": "/audio/vocab/cuaca.mp3" },
+        { "indonesian": "hujan", "english": "rain", "audio": "/audio/vocab/hujan.mp3" },
+        { "indonesian": "panas", "english": "hot", "audio": "/audio/vocab/panas.mp3" },
+        { "indonesian": "dingin", "english": "cold", "audio": "/audio/vocab/dingin.mp3" },
+        { "indonesian": "angin", "english": "wind", "audio": "/audio/vocab/angin.mp3" },
+        { "indonesian": "mendung", "english": "cloudy", "audio": "/audio/vocab/mendung.mp3" },
+        { "indonesian": "cerah", "english": "sunny, clear", "audio": "/audio/vocab/cerah.mp3" },
+        { "indonesian": "badai", "english": "storm", "audio": "/audio/vocab/badai.mp3" }
+      ]
+    },
+    "work": {
+      "name": "Work & Professions",
+      "week": 11,
+      "words": [
+        { "indonesian": "pekerjaan", "english": "job, work", "audio": "/audio/vocab/pekerjaan.mp3" },
+        { "indonesian": "guru", "english": "teacher", "audio": "/audio/vocab/guru.mp3" },
+        { "indonesian": "dokter", "english": "doctor", "audio": "/audio/vocab/dokter.mp3" },
+        { "indonesian": "perawat", "english": "nurse", "audio": "/audio/vocab/perawat.mp3" },
+        { "indonesian": "insinyur", "english": "engineer", "audio": "/audio/vocab/insinyur.mp3" },
+        { "indonesian": "pengacara", "english": "lawyer", "audio": "/audio/vocab/pengacara.mp3" },
+        { "indonesian": "petani", "english": "farmer", "audio": "/audio/vocab/petani.mp3" },
+        { "indonesian": "sopir", "english": "driver", "audio": "/audio/vocab/sopir.mp3" },
+        { "indonesian": "koki", "english": "cook, chef", "audio": "/audio/vocab/koki.mp3" },
+        { "indonesian": "pelayan", "english": "waiter, server", "audio": "/audio/vocab/pelayan.mp3" },
+        { "indonesian": "manajer", "english": "manager", "audio": "/audio/vocab/manajer.mp3" },
+        { "indonesian": "mahasiswa", "english": "university student", "audio": "/audio/vocab/mahasiswa.mp3" },
+        { "indonesian": "pelajar", "english": "student", "audio": "/audio/vocab/pelajar.mp3" }
+      ]
+    },
+    "common_words": {
+      "name": "Common Words",
+      "week": 12,
+      "words": [
+        { "indonesian": "ya", "english": "yes", "audio": "/audio/vocab/ya.mp3" },
+        { "indonesian": "tidak", "english": "no, not", "audio": "/audio/vocab/tidak.mp3" },
+        { "indonesian": "ada", "english": "there is/are, to have", "audio": "/audio/vocab/ada.mp3" },
+        { "indonesian": "tidak ada", "english": "there isn't/aren't, don't have", "audio": "/audio/vocab/tidak_ada.mp3" },
+        { "indonesian": "apa", "english": "what", "audio": "/audio/vocab/apa.mp3" },
+        { "indonesian": "siapa", "english": "who", "audio": "/audio/vocab/siapa.mp3" },
+        { "indonesian": "kapan", "english": "when", "audio": "/audio/vocab/kapan.mp3" },
+        { "indonesian": "mengapa", "english": "why", "audio": "/audio/vocab/mengapa.mp3" },
+        { "indonesian": "kenapa", "english": "why (informal)", "audio": "/audio/vocab/kenapa.mp3" },
+        { "indonesian": "bagaimana", "english": "how", "audio": "/audio/vocab/bagaimana.mp3" },
+        { "indonesian": "berapa", "english": "how much/many", "audio": "/audio/vocab/berapa.mp3" },
+        { "indonesian": "dan", "english": "and", "audio": "/audio/vocab/dan.mp3" },
+        { "indonesian": "atau", "english": "or", "audio": "/audio/vocab/atau.mp3" },
+        { "indonesian": "tapi", "english": "but", "audio": "/audio/vocab/tapi.mp3" },
+        { "indonesian": "tetapi", "english": "but (formal)", "audio": "/audio/vocab/tetapi.mp3" },
+        { "indonesian": "karena", "english": "because", "audio": "/audio/vocab/karena.mp3" },
+        { "indonesian": "juga", "english": "also, too", "audio": "/audio/vocab/juga.mp3" },
+        { "indonesian": "sangat", "english": "very", "audio": "/audio/vocab/sangat.mp3" },
+        { "indonesian": "sekali", "english": "very, once", "audio": "/audio/vocab/sekali.mp3" }
+      ]
+    },
+    "greetings": {
+      "name": "Greetings & Phrases",
+      "week": 1,
+      "words": [
+        { "indonesian": "halo", "english": "hello", "audio": "/audio/vocab/halo.mp3" },
+        { "indonesian": "selamat pagi", "english": "good morning", "audio": "/audio/vocab/selamat_pagi.mp3" },
+        { "indonesian": "selamat siang", "english": "good day/afternoon", "audio": "/audio/vocab/selamat_siang.mp3" },
+        { "indonesian": "selamat sore", "english": "good afternoon", "audio": "/audio/vocab/selamat_sore.mp3" },
+        { "indonesian": "selamat malam", "english": "good evening/night", "audio": "/audio/vocab/selamat_malam.mp3" },
+        { "indonesian": "apa kabar", "english": "how are you", "audio": "/audio/vocab/apa_kabar.mp3" },
+        { "indonesian": "baik", "english": "fine, good", "audio": "/audio/vocab/baik.mp3" },
+        { "indonesian": "terima kasih", "english": "thank you", "audio": "/audio/vocab/terima_kasih.mp3" },
+        { "indonesian": "sama-sama", "english": "you're welcome", "audio": "/audio/vocab/sama_sama.mp3" },
+        { "indonesian": "maaf", "english": "sorry, excuse me", "audio": "/audio/vocab/maaf.mp3" },
+        { "indonesian": "permisi", "english": "excuse me, may I", "audio": "/audio/vocab/permisi.mp3" },
+        { "indonesian": "tolong", "english": "please, help", "audio": "/audio/vocab/tolong.mp3" },
+        { "indonesian": "selamat tinggal", "english": "goodbye (to person staying)", "audio": "/audio/vocab/selamat_tinggal.mp3" },
+        { "indonesian": "selamat jalan", "english": "goodbye (to person leaving)", "audio": "/audio/vocab/selamat_jalan.mp3" },
+        { "indonesian": "sampai jumpa", "english": "see you later", "audio": "/audio/vocab/sampai_jumpa.mp3" }
+      ]
+    },
+    "colors": {
+      "name": "Colors",
+      "week": 5,
+      "words": [
+        { "indonesian": "warna", "english": "color", "audio": "/audio/vocab/warna.mp3" },
+        { "indonesian": "merah", "english": "red", "audio": "/audio/vocab/merah.mp3" },
+        { "indonesian": "biru", "english": "blue", "audio": "/audio/vocab/biru.mp3" },
+        { "indonesian": "hijau", "english": "green", "audio": "/audio/vocab/hijau.mp3" },
+        { "indonesian": "kuning", "english": "yellow", "audio": "/audio/vocab/kuning.mp3" },
+        { "indonesian": "hitam", "english": "black", "audio": "/audio/vocab/hitam.mp3" },
+        { "indonesian": "putih", "english": "white", "audio": "/audio/vocab/putih.mp3" },
+        { "indonesian": "coklat", "english": "brown", "audio": "/audio/vocab/coklat.mp3" },
+        { "indonesian": "orange", "english": "orange", "audio": "/audio/vocab/orange.mp3" },
+        { "indonesian": "ungu", "english": "purple", "audio": "/audio/vocab/ungu.mp3" },
+        { "indonesian": "pink", "english": "pink", "audio": "/audio/vocab/pink.mp3" },
+        { "indonesian": "abu-abu", "english": "gray", "audio": "/audio/vocab/abu_abu.mp3" }
+      ]
+    },
+    "hotel": {
+      "name": "Hotel",
+      "week": 13,
+      "words": [
+        { "indonesian": "kamar", "english": "room", "audio": "/audio/vocab/kamar.mp3" },
+        { "indonesian": "tempat tidur", "english": "bed", "audio": "/audio/vocab/tempat_tidur.mp3" },
+        { "indonesian": "kamar mandi", "english": "bathroom", "audio": "/audio/vocab/kamar_mandi.mp3" },
+        { "indonesian": "reservasi", "english": "reservation", "audio": "/audio/vocab/reservasi.mp3" },
+        { "indonesian": "check in", "english": "check in", "audio": "/audio/vocab/check_in.mp3" },
+        { "indonesian": "check out", "english": "check out", "audio": "/audio/vocab/check_out.mp3" },
+        { "indonesian": "kunci", "english": "key", "audio": "/audio/vocab/kunci.mp3" },
+        { "indonesian": "handuk", "english": "towel", "audio": "/audio/vocab/handuk.mp3" },
+        { "indonesian": "AC", "english": "air conditioning", "audio": "/audio/vocab/ac.mp3" },
+        { "indonesian": "wifi", "english": "wifi", "audio": "/audio/vocab/wifi.mp3" },
+        { "indonesian": "sarapan", "english": "breakfast", "audio": "/audio/vocab/sarapan.mp3" }
+      ]
+    }
+  }
+}

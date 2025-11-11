@@ -1,0 +1,388 @@
+{
+  "scenarios": {
+    "greeting": {
+      "title": "Meeting Someone",
+      "difficulty": 1,
+      "week": 1,
+      "dialog": [
+        { "speaker": "A", "indonesian": "Selamat pagi!", "english": "Good morning!" },
+        { "speaker": "B", "indonesian": "Selamat pagi! Apa kabar?", "english": "Good morning! How are you?" },
+        { "speaker": "A", "indonesian": "Baik, terima kasih. Nama saya John.", "english": "Fine, thank you. My name is John." },
+        { "speaker": "B", "indonesian": "Senang bertemu. Saya Rina.", "english": "Nice to meet you. I'm Rina." }
+      ]
+    },
+    "cafe_order": {
+      "title": "Ordering at a Cafe",
+      "difficulty": 1,
+      "week": 1,
+      "dialog": [
+        { "speaker": "Waiter", "indonesian": "Selamat siang. Mau pesan apa?", "english": "Good afternoon. What would you like to order?" },
+        { "speaker": "You", "indonesian": "Saya mau kopi, tolong.", "english": "I want coffee, please." },
+        { "speaker": "Waiter", "indonesian": "Mau pakai gula?", "english": "Do you want sugar?" },
+        { "speaker": "You", "indonesian": "Ya, terima kasih.", "english": "Yes, thank you." }
+      ]
+    },
+    "misunderstanding": {
+      "title": "When You Don't Understand",
+      "difficulty": 1,
+      "week": 2,
+      "dialog": [
+        { "speaker": "Local", "indonesian": "Anda bisa berbahasa Indonesia?", "english": "Can you speak Indonesian?" },
+        { "speaker": "You", "indonesian": "Saya bisa sedikit.", "english": "I can speak a little." },
+        { "speaker": "Local", "indonesian": "Anda dari mana?", "english": "Where are you from?" },
+        { "speaker": "You", "indonesian": "Maaf, saya tidak paham. Tolong bicara pelan.", "english": "Sorry, I don't understand. Please speak slowly." }
+      ]
+    },
+    "asking_facilities": {
+      "title": "Asking About Facilities",
+      "difficulty": 1,
+      "week": 2,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Permisi, ada toilet?", "english": "Excuse me, is there a toilet?" },
+        { "speaker": "Staff", "indonesian": "Ya, ada. Di sana.", "english": "Yes, there is. Over there." },
+        { "speaker": "You", "indonesian": "Ada wifi juga?", "english": "Is there wifi too?" },
+        { "speaker": "Staff", "indonesian": "Ya, ada. Password: kopi123", "english": "Yes, there is. Password: kopi123" }
+      ]
+    },
+    "asking_directions": {
+      "title": "Asking for Directions",
+      "difficulty": 1,
+      "week": 3,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Permisi, di mana stasiun?", "english": "Excuse me, where is the station?" },
+        { "speaker": "Local", "indonesian": "Jalan lurus, lalu belok kiri.", "english": "Go straight, then turn left." },
+        { "speaker": "You", "indonesian": "Jauh tidak?", "english": "Is it far?" },
+        { "speaker": "Local", "indonesian": "Tidak jauh. Lima menit jalan kaki.", "english": "Not far. Five minutes walking." }
+      ]
+    },
+    "shopping_price": {
+      "title": "Asking About Price",
+      "difficulty": 1,
+      "week": 3,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Berapa harga ini?", "english": "How much is this?" },
+        { "speaker": "Seller", "indonesian": "Lima puluh ribu rupiah.", "english": "Fifty thousand rupiah." },
+        { "speaker": "You", "indonesian": "Mahal. Ada diskon?", "english": "Expensive. Is there a discount?" },
+        { "speaker": "Seller", "indonesian": "Okay, empat puluh ribu.", "english": "Okay, forty thousand." }
+      ]
+    },
+    "taking_taxi": {
+      "title": "Taking a Taxi",
+      "difficulty": 1,
+      "week": 4,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Saya mau ke pantai.", "english": "I want to go to the beach." },
+        { "speaker": "Driver", "indonesian": "Pantai mana?", "english": "Which beach?" },
+        { "speaker": "You", "indonesian": "Pantai Kuta. Berapa harganya?", "english": "Kuta Beach. How much is it?" },
+        { "speaker": "Driver", "indonesian": "Seratus ribu rupiah.", "english": "One hundred thousand rupiah." },
+        { "speaker": "You", "indonesian": "Okay. Berapa lama?", "english": "Okay. How long?" },
+        { "speaker": "Driver", "indonesian": "Dua puluh menit.", "english": "Twenty minutes." }
+      ]
+    },
+    "restaurant_review": {
+      "title": "Commenting on Food",
+      "difficulty": 1,
+      "week": 5,
+      "dialog": [
+        { "speaker": "Friend", "indonesian": "Makanan ini enak?", "english": "Is this food good?" },
+        { "speaker": "You", "indonesian": "Ya, sangat enak!", "english": "Yes, very delicious!" },
+        { "speaker": "Friend", "indonesian": "Pedas tidak?", "english": "Is it spicy?" },
+        { "speaker": "You", "indonesian": "Sedikit pedas, tapi enak sekali.", "english": "A little spicy, but very delicious." }
+      ]
+    },
+    "asking_help": {
+      "title": "Asking for Help",
+      "difficulty": 1,
+      "week": 5,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Permisi, saya perlu bantuan.", "english": "Excuse me, I need help." },
+        { "speaker": "Staff", "indonesian": "Ya, ada masalah?", "english": "Yes, is there a problem?" },
+        { "speaker": "You", "indonesian": "Saya tidak bisa buka pintu.", "english": "I can't open the door." },
+        { "speaker": "Staff", "indonesian": "Baik, saya akan bantu.", "english": "Okay, I will help." }
+      ]
+    },
+    "asking_favor": {
+      "title": "Requesting a Favor",
+      "difficulty": 1,
+      "week": 6,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Tolong ambil foto saya.", "english": "Please take my photo." },
+        { "speaker": "Person", "indonesian": "Baik, tidak masalah.", "english": "Sure, no problem." },
+        { "speaker": "You", "indonesian": "Terima kasih banyak.", "english": "Thank you very much." },
+        { "speaker": "Person", "indonesian": "Sama-sama.", "english": "You're welcome." }
+      ]
+    },
+    "asking_permission": {
+      "title": "Asking Permission",
+      "difficulty": 1,
+      "week": 6,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Boleh saya duduk di sini?", "english": "May I sit here?" },
+        { "speaker": "Person", "indonesian": "Boleh, silakan.", "english": "Yes, please." },
+        { "speaker": "You", "indonesian": "Boleh saya tanya sesuatu?", "english": "May I ask something?" },
+        { "speaker": "Person", "indonesian": "Ya, tentu.", "english": "Yes, of course." }
+      ]
+    },
+    "making_plans": {
+      "title": "Making Plans",
+      "difficulty": 2,
+      "week": 7,
+      "dialog": [
+        { "speaker": "Friend", "indonesian": "Besok kamu mau kemana?", "english": "Where do you want to go tomorrow?" },
+        { "speaker": "You", "indonesian": "Saya akan pergi ke museum.", "english": "I will go to the museum." },
+        { "speaker": "Friend", "indonesian": "Jam berapa?", "english": "What time?" },
+        { "speaker": "You", "indonesian": "Jam sepuluh pagi. Kamu mau ikut?", "english": "Ten in the morning. Do you want to join?" },
+        { "speaker": "Friend", "indonesian": "Ya, saya akan ikut.", "english": "Yes, I will join." }
+      ]
+    },
+    "buying_ticket": {
+      "title": "Buying Transportation Ticket",
+      "difficulty": 2,
+      "week": 7,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Saya mau beli tiket ke Jakarta.", "english": "I want to buy a ticket to Jakarta." },
+        { "speaker": "Agent", "indonesian": "Kapan berangkat?", "english": "When do you leave?" },
+        { "speaker": "You", "indonesian": "Besok pagi.", "english": "Tomorrow morning." },
+        { "speaker": "Agent", "indonesian": "Ada kereta jam 8 dan jam 10.", "english": "There's a train at 8 and at 10." },
+        { "speaker": "You", "indonesian": "Jam 8, tolong.", "english": "8 o'clock, please." }
+      ]
+    },
+    "shopping": {
+      "title": "Shopping at Store",
+      "difficulty": 2,
+      "week": 8,
+      "dialog": [
+        { "speaker": "Cashier", "indonesian": "Sudah bayar?", "english": "Have you paid?" },
+        { "speaker": "You", "indonesian": "Belum. Berapa total?", "english": "Not yet. How much is the total?" },
+        { "speaker": "Cashier", "indonesian": "Dua ratus ribu rupiah.", "english": "Two hundred thousand rupiah." },
+        { "speaker": "You", "indonesian": "Boleh pakai kartu kredit?", "english": "Can I use a credit card?" },
+        { "speaker": "Cashier", "indonesian": "Boleh.", "english": "Yes." }
+      ]
+    },
+    "recommendation": {
+      "title": "Asking for Recommendations",
+      "difficulty": 2,
+      "week": 9,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Mana restoran paling enak di sini?", "english": "Which is the most delicious restaurant here?" },
+        { "speaker": "Local", "indonesian": "Restoran Padang paling enak.", "english": "Padang Restaurant is the most delicious." },
+        { "speaker": "You", "indonesian": "Jauh tidak?", "english": "Is it far?" },
+        { "speaker": "Local", "indonesian": "Tidak. Lebih dekat dari hotel.", "english": "No. Closer than the hotel." }
+      ]
+    },
+    "doctor_visit": {
+      "title": "At the Doctor",
+      "difficulty": 2,
+      "week": 9,
+      "dialog": [
+        { "speaker": "Doctor", "indonesian": "Apa keluhan Anda?", "english": "What's your complaint?" },
+        { "speaker": "You", "indonesian": "Saya sakit kepala dan demam.", "english": "I have a headache and fever." },
+        { "speaker": "Doctor", "indonesian": "Sudah berapa lama?", "english": "For how long?" },
+        { "speaker": "You", "indonesian": "Dua hari.", "english": "Two days." },
+        { "speaker": "Doctor", "indonesian": "Baik, saya beri obat.", "english": "Okay, I'll give you medicine." }
+      ]
+    },
+    "explaining_reason": {
+      "title": "Explaining Reasons",
+      "difficulty": 2,
+      "week": 10,
+      "dialog": [
+        { "speaker": "Friend", "indonesian": "Kenapa kamu tidak datang kemarin?", "english": "Why didn't you come yesterday?" },
+        { "speaker": "You", "indonesian": "Karena saya sakit.", "english": "Because I was sick." },
+        { "speaker": "Friend", "indonesian": "Sekarang sudah baik?", "english": "Are you better now?" },
+        { "speaker": "You", "indonesian": "Ya, sudah lebih baik.", "english": "Yes, I'm better." }
+      ]
+    },
+    "pharmacy": {
+      "title": "At the Pharmacy",
+      "difficulty": 2,
+      "week": 10,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Saya perlu obat untuk batuk.", "english": "I need medicine for cough." },
+        { "speaker": "Pharmacist", "indonesian": "Ada resep dokter?", "english": "Do you have a doctor's prescription?" },
+        { "speaker": "You", "indonesian": "Tidak ada. Ada obat tanpa resep?", "english": "No. Is there medicine without prescription?" },
+        { "speaker": "Pharmacist", "indonesian": "Ya, ini obat batuk. Tiga kali sehari.", "english": "Yes, this is cough medicine. Three times a day." }
+      ]
+    },
+    "work_discussion": {
+      "title": "Discussing Work",
+      "difficulty": 2,
+      "week": 11,
+      "dialog": [
+        { "speaker": "Colleague", "indonesian": "Anda kerja di mana?", "english": "Where do you work?" },
+        { "speaker": "You", "indonesian": "Saya kerja di perusahaan teknologi.", "english": "I work at a technology company." },
+        { "speaker": "Colleague", "indonesian": "Anda bekerja dengan siapa?", "english": "Who do you work with?" },
+        { "speaker": "You", "indonesian": "Dengan tim dari berbagai negara.", "english": "With a team from various countries." }
+      ]
+    },
+    "job_interview": {
+      "title": "Job Interview",
+      "difficulty": 2,
+      "week": 11,
+      "dialog": [
+        { "speaker": "Interviewer", "indonesian": "Apa pekerjaan Anda sekarang?", "english": "What is your current job?" },
+        { "speaker": "You", "indonesian": "Saya insinyur perangkat lunak.", "english": "I'm a software engineer." },
+        { "speaker": "Interviewer", "indonesian": "Kenapa Anda mau kerja di sini?", "english": "Why do you want to work here?" },
+        { "speaker": "You", "indonesian": "Karena saya suka tantangan baru.", "english": "Because I like new challenges." }
+      ]
+    },
+    "specific_order": {
+      "title": "Making Specific Order",
+      "difficulty": 2,
+      "week": 12,
+      "dialog": [
+        { "speaker": "Waiter", "indonesian": "Mau pesan apa?", "english": "What would you like to order?" },
+        { "speaker": "You", "indonesian": "Kopi tanpa gula, tolong.", "english": "Coffee without sugar, please." },
+        { "speaker": "Waiter", "indonesian": "Mau es tidak?", "english": "Do you want ice?" },
+        { "speaker": "You", "indonesian": "Tidak, tanpa es.", "english": "No, without ice." }
+      ]
+    },
+    "hotel_checkin": {
+      "title": "Hotel Check-in",
+      "difficulty": 2,
+      "week": 13,
+      "dialog": [
+        { "speaker": "Receptionist", "indonesian": "Selamat datang. Ada reservasi?", "english": "Welcome. Do you have a reservation?" },
+        { "speaker": "You", "indonesian": "Ya, saya sudah pesan online.", "english": "Yes, I already booked online." },
+        { "speaker": "Receptionist", "indonesian": "Nama Anda?", "english": "Your name?" },
+        { "speaker": "You", "indonesian": "John Smith.", "english": "John Smith." },
+        { "speaker": "Receptionist", "indonesian": "Baik, ini kunci kamar. Kamar 305.", "english": "Okay, here's the room key. Room 305." }
+      ]
+    },
+    "hotel_complaint": {
+      "title": "Hotel Problem",
+      "difficulty": 2,
+      "week": 13,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Permisi, ada masalah di kamar saya.", "english": "Excuse me, there's a problem in my room." },
+        { "speaker": "Staff", "indonesian": "Apa masalahnya?", "english": "What's the problem?" },
+        { "speaker": "You", "indonesian": "AC tidak berfungsi.", "english": "The AC doesn't work." },
+        { "speaker": "Staff", "indonesian": "Maaf, saya akan kirim teknisi sekarang.", "english": "Sorry, I'll send a technician now." }
+      ]
+    },
+    "hotel_services": {
+      "title": "Requesting Hotel Services",
+      "difficulty": 2,
+      "week": 13,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Saya perlu handuk bersih.", "english": "I need clean towels." },
+        { "speaker": "Staff", "indonesian": "Berapa handuk?", "english": "How many towels?" },
+        { "speaker": "You", "indonesian": "Dua, tolong.", "english": "Two, please." },
+        { "speaker": "Staff", "indonesian": "Baik, akan kami antar ke kamar Anda.", "english": "Okay, we'll deliver to your room." }
+      ]
+    },
+    "restaurant_arrival": {
+      "title": "Arriving at Restaurant",
+      "difficulty": 2,
+      "week": 14,
+      "dialog": [
+        { "speaker": "Host", "indonesian": "Selamat malam. Berapa orang?", "english": "Good evening. How many people?" },
+        { "speaker": "You", "indonesian": "Dua orang.", "english": "Two people." },
+        { "speaker": "Host", "indonesian": "Mau duduk di dalam atau di luar?", "english": "Do you want to sit inside or outside?" },
+        { "speaker": "You", "indonesian": "Di dalam, tolong.", "english": "Inside, please." },
+        { "speaker": "Host", "indonesian": "Baik, ikut saya.", "english": "Okay, follow me." }
+      ]
+    },
+    "ordering_food": {
+      "title": "Ordering Food",
+      "difficulty": 2,
+      "week": 14,
+      "dialog": [
+        { "speaker": "Waiter", "indonesian": "Sudah siap pesan?", "english": "Ready to order?" },
+        { "speaker": "You", "indonesian": "Ya. Saya mau nasi goreng tanpa pedas.", "english": "Yes. I want fried rice without spicy." },
+        { "speaker": "Waiter", "indonesian": "Mau minum apa?", "english": "What would you like to drink?" },
+        { "speaker": "You", "indonesian": "Jus jeruk, tanpa es.", "english": "Orange juice, without ice." },
+        { "speaker": "Waiter", "indonesian": "Baik, tunggu sebentar.", "english": "Okay, wait a moment." }
+      ]
+    },
+    "paying_bill": {
+      "title": "Paying Restaurant Bill",
+      "difficulty": 2,
+      "week": 14,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Permisi, saya mau bayar.", "english": "Excuse me, I want to pay." },
+        { "speaker": "Waiter", "indonesian": "Baik, ini tagihannya.", "english": "Okay, here's the bill." },
+        { "speaker": "You", "indonesian": "Berapa total?", "english": "What's the total?" },
+        { "speaker": "Waiter", "indonesian": "Seratus lima puluh ribu rupiah.", "english": "One hundred fifty thousand rupiah." },
+        { "speaker": "You", "indonesian": "Ini dua ratus ribu.", "english": "Here's two hundred thousand." },
+        { "speaker": "Waiter", "indonesian": "Terima kasih. Ini kembaliannya.", "english": "Thank you. Here's your change." }
+      ]
+    },
+    "market_shopping": {
+      "title": "Shopping at Market",
+      "difficulty": 2,
+      "week": 15,
+      "dialog": [
+        { "speaker": "Vendor", "indonesian": "Mau beli apa?", "english": "What do you want to buy?" },
+        { "speaker": "You", "indonesian": "Saya cari tas.", "english": "I'm looking for a bag." },
+        { "speaker": "Vendor", "indonesian": "Mau warna apa?", "english": "What color do you want?" },
+        { "speaker": "You", "indonesian": "Ada warna hitam?", "english": "Do you have black?" },
+        { "speaker": "Vendor", "indonesian": "Ada. Ini tas hitam.", "english": "Yes. This is a black bag." }
+      ]
+    },
+    "bargaining": {
+      "title": "Bargaining at Market",
+      "difficulty": 2,
+      "week": 15,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Berapa harga tas ini?", "english": "How much is this bag?" },
+        { "speaker": "Vendor", "indonesian": "Dua ratus ribu.", "english": "Two hundred thousand." },
+        { "speaker": "You", "indonesian": "Mahal. Boleh kurang?", "english": "Expensive. Can you reduce?" },
+        { "speaker": "Vendor", "indonesian": "Mau bayar berapa?", "english": "How much do you want to pay?" },
+        { "speaker": "You", "indonesian": "Seratus lima puluh ribu.", "english": "One hundred fifty thousand." },
+        { "speaker": "Vendor", "indonesian": "Okay, deal.", "english": "Okay, deal." }
+      ]
+    },
+    "specific_shopping": {
+      "title": "Shopping for Specific Item",
+      "difficulty": 2,
+      "week": 15,
+      "dialog": [
+        { "speaker": "You", "indonesian": "Saya cari baju merah ukuran M.", "english": "I'm looking for a red shirt size M." },
+        { "speaker": "Staff", "indonesian": "Tunggu sebentar, saya cek.", "english": "Wait a moment, I'll check." },
+        { "speaker": "Staff", "indonesian": "Ada, ini baju merah ukuran M.", "english": "Yes, here's a red shirt size M." },
+        { "speaker": "You", "indonesian": "Boleh coba dulu?", "english": "Can I try it first?" },
+        { "speaker": "Staff", "indonesian": "Boleh, ruang ganti di sana.", "english": "Yes, fitting room is over there." }
+      ]
+    },
+    "making_friends": {
+      "title": "Making Friends",
+      "difficulty": 3,
+      "week": 16,
+      "dialog": [
+        { "speaker": "Person", "indonesian": "Anda turis?", "english": "Are you a tourist?" },
+        { "speaker": "You", "indonesian": "Ya, saya dari Amerika.", "english": "Yes, I'm from America." },
+        { "speaker": "Person", "indonesian": "Sudah berapa lama di Indonesia?", "english": "How long have you been in Indonesia?" },
+        { "speaker": "You", "indonesian": "Baru dua minggu.", "english": "Just two weeks." },
+        { "speaker": "Person", "indonesian": "Suka Indonesia?", "english": "Do you like Indonesia?" },
+        { "speaker": "You", "indonesian": "Sangat suka! Orang Indonesia baik sekali.", "english": "I love it! Indonesian people are very kind." }
+      ]
+    },
+    "travel_chat": {
+      "title": "Travel Conversation",
+      "difficulty": 3,
+      "week": 16,
+      "dialog": [
+        { "speaker": "Friend", "indonesian": "Sudah pergi ke mana saja?", "english": "Where have you been?" },
+        { "speaker": "You", "indonesian": "Sudah pergi ke Bali dan Yogyakarta.", "english": "I've been to Bali and Yogyakarta." },
+        { "speaker": "Friend", "indonesian": "Mana paling bagus?", "english": "Which one is the best?" },
+        { "speaker": "You", "indonesian": "Saya suka dua-duanya, tapi Bali lebih indah.", "english": "I like both, but Bali is more beautiful." },
+        { "speaker": "Friend", "indonesian": "Nanti mau ke mana lagi?", "english": "Where will you go next?" },
+        { "speaker": "You", "indonesian": "Saya akan ke Raja Ampat bulan depan.", "english": "I will go to Raja Ampat next month." }
+      ]
+    },
+    "daily_life": {
+      "title": "Daily Life Chat",
+      "difficulty": 3,
+      "week": 16,
+      "dialog": [
+        { "speaker": "Friend", "indonesian": "Kamu biasa bangun jam berapa?", "english": "What time do you usually wake up?" },
+        { "speaker": "You", "indonesian": "Saya bangun jam tujuh.", "english": "I wake up at seven." },
+        { "speaker": "Friend", "indonesian": "Sarapan apa biasanya?", "english": "What do you usually have for breakfast?" },
+        { "speaker": "You", "indonesian": "Biasanya saya makan nasi goreng atau roti.", "english": "Usually I eat fried rice or bread." },
+        { "speaker": "Friend", "indonesian": "Kamu kerja atau sekolah?", "english": "Do you work or study?" },
+        { "speaker": "You", "indonesian": "Saya kerja di kantor, mulai jam sembilan.", "english": "I work at an office, starting at nine." }
+      ]
+    }
+  }
+}

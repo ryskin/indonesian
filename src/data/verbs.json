@@ -1,0 +1,2514 @@
+{
+  "verbs": [
+    {
+      "id": 1,
+      "indonesian": "makan",
+      "english": "to eat",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya makan nasi",
+          "english": "I eat rice",
+          "svo": { "subject": "Saya", "verb": "makan", "object": "nasi" }
+        },
+        {
+          "indonesian": "Dia makan roti",
+          "english": "He/She eats bread",
+          "svo": { "subject": "Dia", "verb": "makan", "object": "roti" }
+        },
+        {
+          "indonesian": "Kami makan bersama",
+          "english": "We eat together",
+          "svo": { "subject": "Kami", "verb": "makan", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/makan.mp3"
+    },
+    {
+      "id": 2,
+      "indonesian": "minum",
+      "english": "to drink",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya minum kopi",
+          "english": "I drink coffee",
+          "svo": { "subject": "Saya", "verb": "minum", "object": "kopi" }
+        },
+        {
+          "indonesian": "Mereka minum air",
+          "english": "They drink water",
+          "svo": { "subject": "Mereka", "verb": "minum", "object": "air" }
+        },
+        {
+          "indonesian": "Anda minum teh",
+          "english": "You drink tea",
+          "svo": { "subject": "Anda", "verb": "minum", "object": "teh" }
+        }
+      ],
+      "audio": "/audio/verbs/minum.mp3"
+    },
+    {
+      "id": 3,
+      "indonesian": "pergi",
+      "english": "to go",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya pergi ke sekolah",
+          "english": "I go to school",
+          "svo": { "subject": "Saya", "verb": "pergi", "object": "ke sekolah" }
+        },
+        {
+          "indonesian": "Dia pergi ke kantor",
+          "english": "He/She goes to the office",
+          "svo": { "subject": "Dia", "verb": "pergi", "object": "ke kantor" }
+        },
+        {
+          "indonesian": "Kami pergi ke pasar",
+          "english": "We go to the market",
+          "svo": { "subject": "Kami", "verb": "pergi", "object": "ke pasar" }
+        }
+      ],
+      "audio": "/audio/verbs/pergi.mp3"
+    },
+    {
+      "id": 4,
+      "indonesian": "datang",
+      "english": "to come",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya datang ke sini",
+          "english": "I come here",
+          "svo": { "subject": "Saya", "verb": "datang", "object": "ke sini" }
+        },
+        {
+          "indonesian": "Mereka datang nanti",
+          "english": "They come later",
+          "svo": { "subject": "Mereka", "verb": "datang", "object": "nanti" }
+        },
+        {
+          "indonesian": "Dia datang pagi",
+          "english": "He/She comes in the morning",
+          "svo": { "subject": "Dia", "verb": "datang", "object": "pagi" }
+        }
+      ],
+      "audio": "/audio/verbs/datang.mp3"
+    },
+    {
+      "id": 5,
+      "indonesian": "lihat",
+      "english": "to see/look",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya lihat film",
+          "english": "I watch a movie",
+          "svo": { "subject": "Saya", "verb": "lihat", "object": "film" }
+        },
+        {
+          "indonesian": "Dia lihat pemandangan",
+          "english": "He/She looks at the view",
+          "svo": { "subject": "Dia", "verb": "lihat", "object": "pemandangan" }
+        },
+        {
+          "indonesian": "Kami lihat peta",
+          "english": "We look at the map",
+          "svo": { "subject": "Kami", "verb": "lihat", "object": "peta" }
+        }
+      ],
+      "audio": "/audio/verbs/lihat.mp3"
+    },
+    {
+      "id": 6,
+      "indonesian": "bicara",
+      "english": "to speak/talk",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bicara bahasa Indonesia",
+          "english": "I speak Indonesian",
+          "svo": { "subject": "Saya", "verb": "bicara", "object": "bahasa Indonesia" }
+        },
+        {
+          "indonesian": "Dia bicara dengan teman",
+          "english": "He/She talks with a friend",
+          "svo": { "subject": "Dia", "verb": "bicara", "object": "dengan teman" }
+        },
+        {
+          "indonesian": "Kami bicara tentang rencana",
+          "english": "We talk about plans",
+          "svo": { "subject": "Kami", "verb": "bicara", "object": "tentang rencana" }
+        }
+      ],
+      "audio": "/audio/verbs/bicara.mp3"
+    },
+    {
+      "id": 7,
+      "indonesian": "mau",
+      "english": "to want",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya mau kopi",
+          "english": "I want coffee",
+          "svo": { "subject": "Saya", "verb": "mau", "object": "kopi" }
+        },
+        {
+          "indonesian": "Dia mau tidur",
+          "english": "He/She wants to sleep",
+          "svo": { "subject": "Dia", "verb": "mau", "object": "tidur" }
+        },
+        {
+          "indonesian": "Kami mau pergi",
+          "english": "We want to go",
+          "svo": { "subject": "Kami", "verb": "mau", "object": "pergi" }
+        }
+      ],
+      "audio": "/audio/verbs/mau.mp3"
+    },
+    {
+      "id": 8,
+      "indonesian": "bisa",
+      "english": "can/able to",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bisa berenang",
+          "english": "I can swim",
+          "svo": { "subject": "Saya", "verb": "bisa", "object": "berenang" }
+        },
+        {
+          "indonesian": "Dia bisa bahasa Inggris",
+          "english": "He/She can speak English",
+          "svo": { "subject": "Dia", "verb": "bisa", "object": "bahasa Inggris" }
+        },
+        {
+          "indonesian": "Kami bisa bantu",
+          "english": "We can help",
+          "svo": { "subject": "Kami", "verb": "bisa", "object": "bantu" }
+        }
+      ],
+      "audio": "/audio/verbs/bisa.mp3"
+    },
+    {
+      "id": 9,
+      "indonesian": "beli",
+      "english": "to buy",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya beli buku",
+          "english": "I buy a book",
+          "svo": { "subject": "Saya", "verb": "beli", "object": "buku" }
+        },
+        {
+          "indonesian": "Dia beli tiket",
+          "english": "He/She buys a ticket",
+          "svo": { "subject": "Dia", "verb": "beli", "object": "tiket" }
+        },
+        {
+          "indonesian": "Kami beli makanan",
+          "english": "We buy food",
+          "svo": { "subject": "Kami", "verb": "beli", "object": "makanan" }
+        }
+      ],
+      "audio": "/audio/verbs/beli.mp3"
+    },
+    {
+      "id": 10,
+      "indonesian": "jual",
+      "english": "to sell",
+      "category": "daily_actions",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Dia jual mobil",
+          "english": "He/She sells a car",
+          "svo": { "subject": "Dia", "verb": "jual", "object": "mobil" }
+        },
+        {
+          "indonesian": "Mereka jual sayur",
+          "english": "They sell vegetables",
+          "svo": { "subject": "Mereka", "verb": "jual", "object": "sayur" }
+        },
+        {
+          "indonesian": "Saya jual rumah",
+          "english": "I sell a house",
+          "svo": { "subject": "Saya", "verb": "jual", "object": "rumah" }
+        }
+      ],
+      "audio": "/audio/verbs/jual.mp3"
+    },
+    {
+      "id": 11,
+      "indonesian": "tidur",
+      "english": "to sleep",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tidur di hotel",
+          "english": "I sleep at the hotel",
+          "svo": { "subject": "Saya", "verb": "tidur", "object": "di hotel" }
+        },
+        {
+          "indonesian": "Dia tidur nyenyak",
+          "english": "He/She sleeps soundly",
+          "svo": { "subject": "Dia", "verb": "tidur", "object": "nyenyak" }
+        },
+        {
+          "indonesian": "Kami tidur malam",
+          "english": "We sleep at night",
+          "svo": { "subject": "Kami", "verb": "tidur", "object": "malam" }
+        }
+      ],
+      "audio": "/audio/verbs/tidur.mp3"
+    },
+    {
+      "id": 12,
+      "indonesian": "bangun",
+      "english": "to wake up/get up",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bangun pagi",
+          "english": "I wake up in the morning",
+          "svo": { "subject": "Saya", "verb": "bangun", "object": "pagi" }
+        },
+        {
+          "indonesian": "Dia bangun jam enam",
+          "english": "He/She wakes up at six",
+          "svo": { "subject": "Dia", "verb": "bangun", "object": "jam enam" }
+        },
+        {
+          "indonesian": "Kami bangun awal",
+          "english": "We wake up early",
+          "svo": { "subject": "Kami", "verb": "bangun", "object": "awal" }
+        }
+      ],
+      "audio": "/audio/verbs/bangun.mp3"
+    },
+    {
+      "id": 13,
+      "indonesian": "kerja",
+      "english": "to work",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya kerja di kantor",
+          "english": "I work at the office",
+          "svo": { "subject": "Saya", "verb": "kerja", "object": "di kantor" }
+        },
+        {
+          "indonesian": "Dia kerja keras",
+          "english": "He/She works hard",
+          "svo": { "subject": "Dia", "verb": "kerja", "object": "keras" }
+        },
+        {
+          "indonesian": "Kami kerja bersama",
+          "english": "We work together",
+          "svo": { "subject": "Kami", "verb": "kerja", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/kerja.mp3"
+    },
+    {
+      "id": 14,
+      "indonesian": "belajar",
+      "english": "to study/learn",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya belajar bahasa Indonesia",
+          "english": "I study Indonesian",
+          "svo": { "subject": "Saya", "verb": "belajar", "object": "bahasa Indonesia" }
+        },
+        {
+          "indonesian": "Dia belajar di sekolah",
+          "english": "He/She studies at school",
+          "svo": { "subject": "Dia", "verb": "belajar", "object": "di sekolah" }
+        },
+        {
+          "indonesian": "Kami belajar bersama",
+          "english": "We study together",
+          "svo": { "subject": "Kami", "verb": "belajar", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/belajar.mp3"
+    },
+    {
+      "id": 15,
+      "indonesian": "main",
+      "english": "to play",
+      "category": "leisure",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya main sepak bola",
+          "english": "I play soccer",
+          "svo": { "subject": "Saya", "verb": "main", "object": "sepak bola" }
+        },
+        {
+          "indonesian": "Dia main musik",
+          "english": "He/She plays music",
+          "svo": { "subject": "Dia", "verb": "main", "object": "musik" }
+        },
+        {
+          "indonesian": "Kami main kartu",
+          "english": "We play cards",
+          "svo": { "subject": "Kami", "verb": "main", "object": "kartu" }
+        }
+      ],
+      "audio": "/audio/verbs/main.mp3"
+    },
+    {
+      "id": 16,
+      "indonesian": "tulis",
+      "english": "to write",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tulis surat",
+          "english": "I write a letter",
+          "svo": { "subject": "Saya", "verb": "tulis", "object": "surat" }
+        },
+        {
+          "indonesian": "Dia tulis buku",
+          "english": "He/She writes a book",
+          "svo": { "subject": "Dia", "verb": "tulis", "object": "buku" }
+        },
+        {
+          "indonesian": "Kami tulis email",
+          "english": "We write an email",
+          "svo": { "subject": "Kami", "verb": "tulis", "object": "email" }
+        }
+      ],
+      "audio": "/audio/verbs/tulis.mp3"
+    },
+    {
+      "id": 17,
+      "indonesian": "baca",
+      "english": "to read",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya baca koran",
+          "english": "I read the newspaper",
+          "svo": { "subject": "Saya", "verb": "baca", "object": "koran" }
+        },
+        {
+          "indonesian": "Dia baca novel",
+          "english": "He/She reads a novel",
+          "svo": { "subject": "Dia", "verb": "baca", "object": "novel" }
+        },
+        {
+          "indonesian": "Kami baca menu",
+          "english": "We read the menu",
+          "svo": { "subject": "Kami", "verb": "baca", "object": "menu" }
+        }
+      ],
+      "audio": "/audio/verbs/baca.mp3"
+    },
+    {
+      "id": 18,
+      "indonesian": "dengar",
+      "english": "to hear/listen",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya dengar musik",
+          "english": "I listen to music",
+          "svo": { "subject": "Saya", "verb": "dengar", "object": "musik" }
+        },
+        {
+          "indonesian": "Dia dengar kabar",
+          "english": "He/She hears the news",
+          "svo": { "subject": "Dia", "verb": "dengar", "object": "kabar" }
+        },
+        {
+          "indonesian": "Kami dengar suara",
+          "english": "We hear a sound",
+          "svo": { "subject": "Kami", "verb": "dengar", "object": "suara" }
+        }
+      ],
+      "audio": "/audio/verbs/dengar.mp3"
+    },
+    {
+      "id": 19,
+      "indonesian": "masak",
+      "english": "to cook",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya masak nasi",
+          "english": "I cook rice",
+          "svo": { "subject": "Saya", "verb": "masak", "object": "nasi" }
+        },
+        {
+          "indonesian": "Dia masak mie",
+          "english": "He/She cooks noodles",
+          "svo": { "subject": "Dia", "verb": "masak", "object": "mie" }
+        },
+        {
+          "indonesian": "Kami masak bersama",
+          "english": "We cook together",
+          "svo": { "subject": "Kami", "verb": "masak", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/masak.mp3"
+    },
+    {
+      "id": 20,
+      "indonesian": "cuci",
+      "english": "to wash",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya cuci tangan",
+          "english": "I wash hands",
+          "svo": { "subject": "Saya", "verb": "cuci", "object": "tangan" }
+        },
+        {
+          "indonesian": "Dia cuci piring",
+          "english": "He/She washes dishes",
+          "svo": { "subject": "Dia", "verb": "cuci", "object": "piring" }
+        },
+        {
+          "indonesian": "Kami cuci mobil",
+          "english": "We wash the car",
+          "svo": { "subject": "Kami", "verb": "cuci", "object": "mobil" }
+        }
+      ],
+      "audio": "/audio/verbs/cuci.mp3"
+    },
+    {
+      "id": 21,
+      "indonesian": "ambil",
+      "english": "to take/get",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya ambil tas",
+          "english": "I take the bag",
+          "svo": { "subject": "Saya", "verb": "ambil", "object": "tas" }
+        },
+        {
+          "indonesian": "Dia ambil uang",
+          "english": "He/She takes money",
+          "svo": { "subject": "Dia", "verb": "ambil", "object": "uang" }
+        },
+        {
+          "indonesian": "Kami ambil foto",
+          "english": "We take a photo",
+          "svo": { "subject": "Kami", "verb": "ambil", "object": "foto" }
+        }
+      ],
+      "audio": "/audio/verbs/ambil.mp3"
+    },
+    {
+      "id": 22,
+      "indonesian": "bawa",
+      "english": "to bring/carry",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bawa payung",
+          "english": "I bring an umbrella",
+          "svo": { "subject": "Saya", "verb": "bawa", "object": "payung" }
+        },
+        {
+          "indonesian": "Dia bawa tas",
+          "english": "He/She carries a bag",
+          "svo": { "subject": "Dia", "verb": "bawa", "object": "tas" }
+        },
+        {
+          "indonesian": "Kami bawa makanan",
+          "english": "We bring food",
+          "svo": { "subject": "Kami", "verb": "bawa", "object": "makanan" }
+        }
+      ],
+      "audio": "/audio/verbs/bawa.mp3"
+    },
+    {
+      "id": 23,
+      "indonesian": "cari",
+      "english": "to look for/search",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya cari hotel",
+          "english": "I look for a hotel",
+          "svo": { "subject": "Saya", "verb": "cari", "object": "hotel" }
+        },
+        {
+          "indonesian": "Dia cari restoran",
+          "english": "He/She looks for a restaurant",
+          "svo": { "subject": "Dia", "verb": "cari", "object": "restoran" }
+        },
+        {
+          "indonesian": "Kami cari jalan",
+          "english": "We look for the way",
+          "svo": { "subject": "Kami", "verb": "cari", "object": "jalan" }
+        }
+      ],
+      "audio": "/audio/verbs/cari.mp3"
+    },
+    {
+      "id": 24,
+      "indonesian": "dapat",
+      "english": "to get/receive",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya dapat hadiah",
+          "english": "I get a gift",
+          "svo": { "subject": "Saya", "verb": "dapat", "object": "hadiah" }
+        },
+        {
+          "indonesian": "Dia dapat pekerjaan",
+          "english": "He/She gets a job",
+          "svo": { "subject": "Dia", "verb": "dapat", "object": "pekerjaan" }
+        },
+        {
+          "indonesian": "Kami dapat kabar baik",
+          "english": "We receive good news",
+          "svo": { "subject": "Kami", "verb": "dapat", "object": "kabar baik" }
+        }
+      ],
+      "audio": "/audio/verbs/dapat.mp3"
+    },
+    {
+      "id": 25,
+      "indonesian": "beri",
+      "english": "to give",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya beri hadiah",
+          "english": "I give a gift",
+          "svo": { "subject": "Saya", "verb": "beri", "object": "hadiah" }
+        },
+        {
+          "indonesian": "Dia beri uang",
+          "english": "He/She gives money",
+          "svo": { "subject": "Dia", "verb": "beri", "object": "uang" }
+        },
+        {
+          "indonesian": "Kami beri bantuan",
+          "english": "We give help",
+          "svo": { "subject": "Kami", "verb": "beri", "object": "bantuan" }
+        }
+      ],
+      "audio": "/audio/verbs/beri.mp3"
+    },
+    {
+      "id": 26,
+      "indonesian": "tahu",
+      "english": "to know",
+      "category": "mental",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tahu jawabannya",
+          "english": "I know the answer",
+          "svo": { "subject": "Saya", "verb": "tahu", "object": "jawabannya" }
+        },
+        {
+          "indonesian": "Dia tahu jalan",
+          "english": "He/She knows the way",
+          "svo": { "subject": "Dia", "verb": "tahu", "object": "jalan" }
+        },
+        {
+          "indonesian": "Kami tahu berita",
+          "english": "We know the news",
+          "svo": { "subject": "Kami", "verb": "tahu", "object": "berita" }
+        }
+      ],
+      "audio": "/audio/verbs/tahu.mp3"
+    },
+    {
+      "id": 27,
+      "indonesian": "ingat",
+      "english": "to remember",
+      "category": "mental",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya ingat namanya",
+          "english": "I remember the name",
+          "svo": { "subject": "Saya", "verb": "ingat", "object": "namanya" }
+        },
+        {
+          "indonesian": "Dia ingat alamat",
+          "english": "He/She remembers the address",
+          "svo": { "subject": "Dia", "verb": "ingat", "object": "alamat" }
+        },
+        {
+          "indonesian": "Kami ingat waktu",
+          "english": "We remember the time",
+          "svo": { "subject": "Kami", "verb": "ingat", "object": "waktu" }
+        }
+      ],
+      "audio": "/audio/verbs/ingat.mp3"
+    },
+    {
+      "id": 28,
+      "indonesian": "lupa",
+      "english": "to forget",
+      "category": "mental",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya lupa kunci",
+          "english": "I forget the key",
+          "svo": { "subject": "Saya", "verb": "lupa", "object": "kunci" }
+        },
+        {
+          "indonesian": "Dia lupa nama",
+          "english": "He/She forgets the name",
+          "svo": { "subject": "Dia", "verb": "lupa", "object": "nama" }
+        },
+        {
+          "indonesian": "Kami lupa jadwal",
+          "english": "We forget the schedule",
+          "svo": { "subject": "Kami", "verb": "lupa", "object": "jadwal" }
+        }
+      ],
+      "audio": "/audio/verbs/lupa.mp3"
+    },
+    {
+      "id": 29,
+      "indonesian": "suka",
+      "english": "to like",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya suka kopi",
+          "english": "I like coffee",
+          "svo": { "subject": "Saya", "verb": "suka", "object": "kopi" }
+        },
+        {
+          "indonesian": "Dia suka musik",
+          "english": "He/She likes music",
+          "svo": { "subject": "Dia", "verb": "suka", "object": "musik" }
+        },
+        {
+          "indonesian": "Kami suka pantai",
+          "english": "We like the beach",
+          "svo": { "subject": "Kami", "verb": "suka", "object": "pantai" }
+        }
+      ],
+      "audio": "/audio/verbs/suka.mp3"
+    },
+    {
+      "id": 30,
+      "indonesian": "cinta",
+      "english": "to love",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya cinta Indonesia",
+          "english": "I love Indonesia",
+          "svo": { "subject": "Saya", "verb": "cinta", "object": "Indonesia" }
+        },
+        {
+          "indonesian": "Dia cinta keluarga",
+          "english": "He/She loves family",
+          "svo": { "subject": "Dia", "verb": "cinta", "object": "keluarga" }
+        },
+        {
+          "indonesian": "Kami cinta negara",
+          "english": "We love the country",
+          "svo": { "subject": "Kami", "verb": "cinta", "object": "negara" }
+        }
+      ],
+      "audio": "/audio/verbs/cinta.mp3"
+    },
+    {
+      "id": 31,
+      "indonesian": "tunggu",
+      "english": "to wait",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tunggu bus",
+          "english": "I wait for the bus",
+          "svo": { "subject": "Saya", "verb": "tunggu", "object": "bus" }
+        },
+        {
+          "indonesian": "Dia tunggu teman",
+          "english": "He/She waits for a friend",
+          "svo": { "subject": "Dia", "verb": "tunggu", "object": "teman" }
+        },
+        {
+          "indonesian": "Kami tunggu taksi",
+          "english": "We wait for a taxi",
+          "svo": { "subject": "Kami", "verb": "tunggu", "object": "taksi" }
+        }
+      ],
+      "audio": "/audio/verbs/tunggu.mp3"
+    },
+    {
+      "id": 32,
+      "indonesian": "duduk",
+      "english": "to sit",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya duduk di kursi",
+          "english": "I sit on the chair",
+          "svo": { "subject": "Saya", "verb": "duduk", "object": "di kursi" }
+        },
+        {
+          "indonesian": "Dia duduk di sofa",
+          "english": "He/She sits on the sofa",
+          "svo": { "subject": "Dia", "verb": "duduk", "object": "di sofa" }
+        },
+        {
+          "indonesian": "Kami duduk bersama",
+          "english": "We sit together",
+          "svo": { "subject": "Kami", "verb": "duduk", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/duduk.mp3"
+    },
+    {
+      "id": 33,
+      "indonesian": "berdiri",
+      "english": "to stand",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya berdiri di pintu",
+          "english": "I stand at the door",
+          "svo": { "subject": "Saya", "verb": "berdiri", "object": "di pintu" }
+        },
+        {
+          "indonesian": "Dia berdiri lama",
+          "english": "He/She stands for a long time",
+          "svo": { "subject": "Dia", "verb": "berdiri", "object": "lama" }
+        },
+        {
+          "indonesian": "Kami berdiri di sini",
+          "english": "We stand here",
+          "svo": { "subject": "Kami", "verb": "berdiri", "object": "di sini" }
+        }
+      ],
+      "audio": "/audio/verbs/berdiri.mp3"
+    },
+    {
+      "id": 34,
+      "indonesian": "jalan",
+      "english": "to walk",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya jalan ke pasar",
+          "english": "I walk to the market",
+          "svo": { "subject": "Saya", "verb": "jalan", "object": "ke pasar" }
+        },
+        {
+          "indonesian": "Dia jalan cepat",
+          "english": "He/She walks fast",
+          "svo": { "subject": "Dia", "verb": "jalan", "object": "cepat" }
+        },
+        {
+          "indonesian": "Kami jalan bersama",
+          "english": "We walk together",
+          "svo": { "subject": "Kami", "verb": "jalan", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/jalan.mp3"
+    },
+    {
+      "id": 35,
+      "indonesian": "lari",
+      "english": "to run",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya lari pagi",
+          "english": "I run in the morning",
+          "svo": { "subject": "Saya", "verb": "lari", "object": "pagi" }
+        },
+        {
+          "indonesian": "Dia lari cepat",
+          "english": "He/She runs fast",
+          "svo": { "subject": "Dia", "verb": "lari", "object": "cepat" }
+        },
+        {
+          "indonesian": "Kami lari bersama",
+          "english": "We run together",
+          "svo": { "subject": "Kami", "verb": "lari", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/lari.mp3"
+    },
+    {
+      "id": 36,
+      "indonesian": "naik",
+      "english": "to ride/go up",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya naik bus",
+          "english": "I ride the bus",
+          "svo": { "subject": "Saya", "verb": "naik", "object": "bus" }
+        },
+        {
+          "indonesian": "Dia naik taksi",
+          "english": "He/She takes a taxi",
+          "svo": { "subject": "Dia", "verb": "naik", "object": "taksi" }
+        },
+        {
+          "indonesian": "Kami naik pesawat",
+          "english": "We take a plane",
+          "svo": { "subject": "Kami", "verb": "naik", "object": "pesawat" }
+        }
+      ],
+      "audio": "/audio/verbs/naik.mp3"
+    },
+    {
+      "id": 37,
+      "indonesian": "turun",
+      "english": "to get off/go down",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya turun di sini",
+          "english": "I get off here",
+          "svo": { "subject": "Saya", "verb": "turun", "object": "di sini" }
+        },
+        {
+          "indonesian": "Dia turun tangga",
+          "english": "He/She goes down the stairs",
+          "svo": { "subject": "Dia", "verb": "turun", "object": "tangga" }
+        },
+        {
+          "indonesian": "Kami turun dari bus",
+          "english": "We get off the bus",
+          "svo": { "subject": "Kami", "verb": "turun", "object": "dari bus" }
+        }
+      ],
+      "audio": "/audio/verbs/turun.mp3"
+    },
+    {
+      "id": 38,
+      "indonesian": "masuk",
+      "english": "to enter",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya masuk ruangan",
+          "english": "I enter the room",
+          "svo": { "subject": "Saya", "verb": "masuk", "object": "ruangan" }
+        },
+        {
+          "indonesian": "Dia masuk kantor",
+          "english": "He/She enters the office",
+          "svo": { "subject": "Dia", "verb": "masuk", "object": "kantor" }
+        },
+        {
+          "indonesian": "Kami masuk restoran",
+          "english": "We enter the restaurant",
+          "svo": { "subject": "Kami", "verb": "masuk", "object": "restoran" }
+        }
+      ],
+      "audio": "/audio/verbs/masuk.mp3"
+    },
+    {
+      "id": 39,
+      "indonesian": "keluar",
+      "english": "to exit/go out",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya keluar rumah",
+          "english": "I go out of the house",
+          "svo": { "subject": "Saya", "verb": "keluar", "object": "rumah" }
+        },
+        {
+          "indonesian": "Dia keluar kantor",
+          "english": "He/She exits the office",
+          "svo": { "subject": "Dia", "verb": "keluar", "object": "kantor" }
+        },
+        {
+          "indonesian": "Kami keluar bersama",
+          "english": "We go out together",
+          "svo": { "subject": "Kami", "verb": "keluar", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/keluar.mp3"
+    },
+    {
+      "id": 40,
+      "indonesian": "kembali",
+      "english": "to return",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya kembali ke hotel",
+          "english": "I return to the hotel",
+          "svo": { "subject": "Saya", "verb": "kembali", "object": "ke hotel" }
+        },
+        {
+          "indonesian": "Dia kembali nanti",
+          "english": "He/She returns later",
+          "svo": { "subject": "Dia", "verb": "kembali", "object": "nanti" }
+        },
+        {
+          "indonesian": "Kami kembali besok",
+          "english": "We return tomorrow",
+          "svo": { "subject": "Kami", "verb": "kembali", "object": "besok" }
+        }
+      ],
+      "audio": "/audio/verbs/kembali.mp3"
+    },
+    {
+      "id": 41,
+      "indonesian": "tinggal",
+      "english": "to stay/live",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tinggal di Jakarta",
+          "english": "I live in Jakarta",
+          "svo": { "subject": "Saya", "verb": "tinggal", "object": "di Jakarta" }
+        },
+        {
+          "indonesian": "Dia tinggal di hotel",
+          "english": "He/She stays at the hotel",
+          "svo": { "subject": "Dia", "verb": "tinggal", "object": "di hotel" }
+        },
+        {
+          "indonesian": "Kami tinggal bersama",
+          "english": "We live together",
+          "svo": { "subject": "Kami", "verb": "tinggal", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/tinggal.mp3"
+    },
+    {
+      "id": 42,
+      "indonesian": "pindah",
+      "english": "to move",
+      "category": "movement",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya pindah rumah",
+          "english": "I move houses",
+          "svo": { "subject": "Saya", "verb": "pindah", "object": "rumah" }
+        },
+        {
+          "indonesian": "Dia pindah kota",
+          "english": "He/She moves cities",
+          "svo": { "subject": "Dia", "verb": "pindah", "object": "kota" }
+        },
+        {
+          "indonesian": "Kami pindah kantor",
+          "english": "We move offices",
+          "svo": { "subject": "Kami", "verb": "pindah", "object": "kantor" }
+        }
+      ],
+      "audio": "/audio/verbs/pindah.mp3"
+    },
+    {
+      "id": 43,
+      "indonesian": "buka",
+      "english": "to open",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya buka pintu",
+          "english": "I open the door",
+          "svo": { "subject": "Saya", "verb": "buka", "object": "pintu" }
+        },
+        {
+          "indonesian": "Dia buka jendela",
+          "english": "He/She opens the window",
+          "svo": { "subject": "Dia", "verb": "buka", "object": "jendela" }
+        },
+        {
+          "indonesian": "Kami buka toko",
+          "english": "We open the shop",
+          "svo": { "subject": "Kami", "verb": "buka", "object": "toko" }
+        }
+      ],
+      "audio": "/audio/verbs/buka.mp3"
+    },
+    {
+      "id": 44,
+      "indonesian": "tutup",
+      "english": "to close",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tutup pintu",
+          "english": "I close the door",
+          "svo": { "subject": "Saya", "verb": "tutup", "object": "pintu" }
+        },
+        {
+          "indonesian": "Dia tutup buku",
+          "english": "He/She closes the book",
+          "svo": { "subject": "Dia", "verb": "tutup", "object": "buku" }
+        },
+        {
+          "indonesian": "Kami tutup toko",
+          "english": "We close the shop",
+          "svo": { "subject": "Kami", "verb": "tutup", "object": "toko" }
+        }
+      ],
+      "audio": "/audio/verbs/tutup.mp3"
+    },
+    {
+      "id": 45,
+      "indonesian": "mulai",
+      "english": "to start/begin",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya mulai kerja",
+          "english": "I start work",
+          "svo": { "subject": "Saya", "verb": "mulai", "object": "kerja" }
+        },
+        {
+          "indonesian": "Dia mulai belajar",
+          "english": "He/She starts studying",
+          "svo": { "subject": "Dia", "verb": "mulai", "object": "belajar" }
+        },
+        {
+          "indonesian": "Kami mulai sekarang",
+          "english": "We start now",
+          "svo": { "subject": "Kami", "verb": "mulai", "object": "sekarang" }
+        }
+      ],
+      "audio": "/audio/verbs/mulai.mp3"
+    },
+    {
+      "id": 46,
+      "indonesian": "selesai",
+      "english": "to finish",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya selesai makan",
+          "english": "I finish eating",
+          "svo": { "subject": "Saya", "verb": "selesai", "object": "makan" }
+        },
+        {
+          "indonesian": "Dia selesai kerja",
+          "english": "He/She finishes work",
+          "svo": { "subject": "Dia", "verb": "selesai", "object": "kerja" }
+        },
+        {
+          "indonesian": "Kami selesai belajar",
+          "english": "We finish studying",
+          "svo": { "subject": "Kami", "verb": "selesai", "object": "belajar" }
+        }
+      ],
+      "audio": "/audio/verbs/selesai.mp3"
+    },
+    {
+      "id": 47,
+      "indonesian": "bertemu",
+      "english": "to meet",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bertemu teman",
+          "english": "I meet a friend",
+          "svo": { "subject": "Saya", "verb": "bertemu", "object": "teman" }
+        },
+        {
+          "indonesian": "Dia bertemu klien",
+          "english": "He/She meets a client",
+          "svo": { "subject": "Dia", "verb": "bertemu", "object": "klien" }
+        },
+        {
+          "indonesian": "Kami bertemu nanti",
+          "english": "We meet later",
+          "svo": { "subject": "Kami", "verb": "bertemu", "object": "nanti" }
+        }
+      ],
+      "audio": "/audio/verbs/bertemu.mp3"
+    },
+    {
+      "id": 48,
+      "indonesian": "tanya",
+      "english": "to ask",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tanya jalan",
+          "english": "I ask for directions",
+          "svo": { "subject": "Saya", "verb": "tanya", "object": "jalan" }
+        },
+        {
+          "indonesian": "Dia tanya harga",
+          "english": "He/She asks the price",
+          "svo": { "subject": "Dia", "verb": "tanya", "object": "harga" }
+        },
+        {
+          "indonesian": "Kami tanya guru",
+          "english": "We ask the teacher",
+          "svo": { "subject": "Kami", "verb": "tanya", "object": "guru" }
+        }
+      ],
+      "audio": "/audio/verbs/tanya.mp3"
+    },
+    {
+      "id": 49,
+      "indonesian": "jawab",
+      "english": "to answer",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya jawab pertanyaan",
+          "english": "I answer the question",
+          "svo": { "subject": "Saya", "verb": "jawab", "object": "pertanyaan" }
+        },
+        {
+          "indonesian": "Dia jawab telepon",
+          "english": "He/She answers the phone",
+          "svo": { "subject": "Dia", "verb": "jawab", "object": "telepon" }
+        },
+        {
+          "indonesian": "Kami jawab bersama",
+          "english": "We answer together",
+          "svo": { "subject": "Kami", "verb": "jawab", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/jawab.mp3"
+    },
+    {
+      "id": 50,
+      "indonesian": "kirim",
+      "english": "to send",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya kirim email",
+          "english": "I send an email",
+          "svo": { "subject": "Saya", "verb": "kirim", "object": "email" }
+        },
+        {
+          "indonesian": "Dia kirim paket",
+          "english": "He/She sends a package",
+          "svo": { "subject": "Dia", "verb": "kirim", "object": "paket" }
+        },
+        {
+          "indonesian": "Kami kirim surat",
+          "english": "We send a letter",
+          "svo": { "subject": "Kami", "verb": "kirim", "object": "surat" }
+        }
+      ],
+      "audio": "/audio/verbs/kirim.mp3"
+    },
+    {
+      "id": 51,
+      "indonesian": "terima",
+      "english": "to receive",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya terima paket",
+          "english": "I receive a package",
+          "svo": { "subject": "Saya", "verb": "terima", "object": "paket" }
+        },
+        {
+          "indonesian": "Dia terima hadiah",
+          "english": "He/She receives a gift",
+          "svo": { "subject": "Dia", "verb": "terima", "object": "hadiah" }
+        },
+        {
+          "indonesian": "Kami terima kabar",
+          "english": "We receive news",
+          "svo": { "subject": "Kami", "verb": "terima", "object": "kabar" }
+        }
+      ],
+      "audio": "/audio/verbs/terima.mp3"
+    },
+    {
+      "id": 52,
+      "indonesian": "bantu",
+      "english": "to help",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bantu teman",
+          "english": "I help a friend",
+          "svo": { "subject": "Saya", "verb": "bantu", "object": "teman" }
+        },
+        {
+          "indonesian": "Dia bantu ibu",
+          "english": "He/She helps mother",
+          "svo": { "subject": "Dia", "verb": "bantu", "object": "ibu" }
+        },
+        {
+          "indonesian": "Kami bantu bersama",
+          "english": "We help together",
+          "svo": { "subject": "Kami", "verb": "bantu", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/bantu.mp3"
+    },
+    {
+      "id": 53,
+      "indonesian": "pakai",
+      "english": "to use/wear",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya pakai baju",
+          "english": "I wear clothes",
+          "svo": { "subject": "Saya", "verb": "pakai", "object": "baju" }
+        },
+        {
+          "indonesian": "Dia pakai handphone",
+          "english": "He/She uses a phone",
+          "svo": { "subject": "Dia", "verb": "pakai", "object": "handphone" }
+        },
+        {
+          "indonesian": "Kami pakai komputer",
+          "english": "We use a computer",
+          "svo": { "subject": "Kami", "verb": "pakai", "object": "komputer" }
+        }
+      ],
+      "audio": "/audio/verbs/pakai.mp3"
+    },
+    {
+      "id": 54,
+      "indonesian": "bayar",
+      "english": "to pay",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bayar tagihan",
+          "english": "I pay the bill",
+          "svo": { "subject": "Saya", "verb": "bayar", "object": "tagihan" }
+        },
+        {
+          "indonesian": "Dia bayar makanan",
+          "english": "He/She pays for food",
+          "svo": { "subject": "Dia", "verb": "bayar", "object": "makanan" }
+        },
+        {
+          "indonesian": "Kami bayar bersama",
+          "english": "We pay together",
+          "svo": { "subject": "Kami", "verb": "bayar", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/bayar.mp3"
+    },
+    {
+      "id": 55,
+      "indonesian": "pesan",
+      "english": "to order",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya pesan kopi",
+          "english": "I order coffee",
+          "svo": { "subject": "Saya", "verb": "pesan", "object": "kopi" }
+        },
+        {
+          "indonesian": "Dia pesan makanan",
+          "english": "He/She orders food",
+          "svo": { "subject": "Dia", "verb": "pesan", "object": "makanan" }
+        },
+        {
+          "indonesian": "Kami pesan tiket",
+          "english": "We order tickets",
+          "svo": { "subject": "Kami", "verb": "pesan", "object": "tiket" }
+        }
+      ],
+      "audio": "/audio/verbs/pesan.mp3"
+    },
+    {
+      "id": 56,
+      "indonesian": "coba",
+      "english": "to try",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya coba makanan",
+          "english": "I try food",
+          "svo": { "subject": "Saya", "verb": "coba", "object": "makanan" }
+        },
+        {
+          "indonesian": "Dia coba baju",
+          "english": "He/She tries on clothes",
+          "svo": { "subject": "Dia", "verb": "coba", "object": "baju" }
+        },
+        {
+          "indonesian": "Kami coba lagi",
+          "english": "We try again",
+          "svo": { "subject": "Kami", "verb": "coba", "object": "lagi" }
+        }
+      ],
+      "audio": "/audio/verbs/coba.mp3"
+    },
+    {
+      "id": 57,
+      "indonesian": "ubah",
+      "english": "to change",
+      "category": "daily_actions",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya ubah rencana",
+          "english": "I change plans",
+          "svo": { "subject": "Saya", "verb": "ubah", "object": "rencana" }
+        },
+        {
+          "indonesian": "Dia ubah jadwal",
+          "english": "He/She changes the schedule",
+          "svo": { "subject": "Dia", "verb": "ubah", "object": "jadwal" }
+        },
+        {
+          "indonesian": "Kami ubah waktu",
+          "english": "We change the time",
+          "svo": { "subject": "Kami", "verb": "ubah", "object": "waktu" }
+        }
+      ],
+      "audio": "/audio/verbs/ubah.mp3"
+    },
+    {
+      "id": 58,
+      "indonesian": "simpan",
+      "english": "to keep/save",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya simpan uang",
+          "english": "I save money",
+          "svo": { "subject": "Saya", "verb": "simpan", "object": "uang" }
+        },
+        {
+          "indonesian": "Dia simpan file",
+          "english": "He/She saves the file",
+          "svo": { "subject": "Dia", "verb": "simpan", "object": "file" }
+        },
+        {
+          "indonesian": "Kami simpan dokumen",
+          "english": "We keep documents",
+          "svo": { "subject": "Kami", "verb": "simpan", "object": "dokumen" }
+        }
+      ],
+      "audio": "/audio/verbs/simpan.mp3"
+    },
+    {
+      "id": 59,
+      "indonesian": "paham",
+      "english": "to understand",
+      "category": "mental",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya paham bahasa Indonesia",
+          "english": "I understand Indonesian",
+          "svo": { "subject": "Saya", "verb": "paham", "object": "bahasa Indonesia" }
+        },
+        {
+          "indonesian": "Dia paham pelajaran",
+          "english": "He/She understands the lesson",
+          "svo": { "subject": "Dia", "verb": "paham", "object": "pelajaran" }
+        },
+        {
+          "indonesian": "Kami paham konsep",
+          "english": "We understand the concept",
+          "svo": { "subject": "Kami", "verb": "paham", "object": "konsep" }
+        }
+      ],
+      "audio": "/audio/verbs/paham.mp3"
+    },
+    {
+      "id": 60,
+      "indonesian": "menang",
+      "english": "to win",
+      "category": "leisure",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya menang kompetisi",
+          "english": "I win the competition",
+          "svo": { "subject": "Saya", "verb": "menang", "object": "kompetisi" }
+        },
+        {
+          "indonesian": "Dia menang pertandingan",
+          "english": "He/She wins the match",
+          "svo": { "subject": "Dia", "verb": "menang", "object": "pertandingan" }
+        },
+        {
+          "indonesian": "Kami menang lomba",
+          "english": "We win the contest",
+          "svo": { "subject": "Kami", "verb": "menang", "object": "lomba" }
+        }
+      ],
+      "audio": "/audio/verbs/menang.mp3"
+    },
+    {
+      "id": 61,
+      "indonesian": "kalah",
+      "english": "to lose",
+      "category": "leisure",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya kalah main",
+          "english": "I lose the game",
+          "svo": { "subject": "Saya", "verb": "kalah", "object": "main" }
+        },
+        {
+          "indonesian": "Dia kalah pertandingan",
+          "english": "He/She loses the match",
+          "svo": { "subject": "Dia", "verb": "kalah", "object": "pertandingan" }
+        },
+        {
+          "indonesian": "Kami kalah lomba",
+          "english": "We lose the contest",
+          "svo": { "subject": "Kami", "verb": "kalah", "object": "lomba" }
+        }
+      ],
+      "audio": "/audio/verbs/kalah.mp3"
+    },
+    {
+      "id": 62,
+      "indonesian": "berenang",
+      "english": "to swim",
+      "category": "leisure",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya berenang di kolam",
+          "english": "I swim in the pool",
+          "svo": { "subject": "Saya", "verb": "berenang", "object": "di kolam" }
+        },
+        {
+          "indonesian": "Dia berenang di laut",
+          "english": "He/She swims in the sea",
+          "svo": { "subject": "Dia", "verb": "berenang", "object": "di laut" }
+        },
+        {
+          "indonesian": "Kami berenang bersama",
+          "english": "We swim together",
+          "svo": { "subject": "Kami", "verb": "berenang", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/berenang.mp3"
+    },
+    {
+      "id": 63,
+      "indonesian": "menari",
+      "english": "to dance",
+      "category": "leisure",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya menari di pesta",
+          "english": "I dance at the party",
+          "svo": { "subject": "Saya", "verb": "menari", "object": "di pesta" }
+        },
+        {
+          "indonesian": "Dia menari dengan baik",
+          "english": "He/She dances well",
+          "svo": { "subject": "Dia", "verb": "menari", "object": "dengan baik" }
+        },
+        {
+          "indonesian": "Kami menari bersama",
+          "english": "We dance together",
+          "svo": { "subject": "Kami", "verb": "menari", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/menari.mp3"
+    },
+    {
+      "id": 64,
+      "indonesian": "menyanyi",
+      "english": "to sing",
+      "category": "leisure",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya menyanyi lagu",
+          "english": "I sing a song",
+          "svo": { "subject": "Saya", "verb": "menyanyi", "object": "lagu" }
+        },
+        {
+          "indonesian": "Dia menyanyi di panggung",
+          "english": "He/She sings on stage",
+          "svo": { "subject": "Dia", "verb": "menyanyi", "object": "di panggung" }
+        },
+        {
+          "indonesian": "Kami menyanyi bersama",
+          "english": "We sing together",
+          "svo": { "subject": "Kami", "verb": "menyanyi", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/menyanyi.mp3"
+    },
+    {
+      "id": 65,
+      "indonesian": "potong",
+      "english": "to cut",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya potong rambut",
+          "english": "I cut hair",
+          "svo": { "subject": "Saya", "verb": "potong", "object": "rambut" }
+        },
+        {
+          "indonesian": "Dia potong sayur",
+          "english": "He/She cuts vegetables",
+          "svo": { "subject": "Dia", "verb": "potong", "object": "sayur" }
+        },
+        {
+          "indonesian": "Kami potong kue",
+          "english": "We cut the cake",
+          "svo": { "subject": "Kami", "verb": "potong", "object": "kue" }
+        }
+      ],
+      "audio": "/audio/verbs/potong.mp3"
+    },
+    {
+      "id": 66,
+      "indonesian": "atur",
+      "english": "to arrange/set",
+      "category": "daily_actions",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya atur jadwal",
+          "english": "I arrange the schedule",
+          "svo": { "subject": "Saya", "verb": "atur", "object": "jadwal" }
+        },
+        {
+          "indonesian": "Dia atur ruangan",
+          "english": "He/She arranges the room",
+          "svo": { "subject": "Dia", "verb": "atur", "object": "ruangan" }
+        },
+        {
+          "indonesian": "Kami atur waktu",
+          "english": "We set the time",
+          "svo": { "subject": "Kami", "verb": "atur", "object": "waktu" }
+        }
+      ],
+      "audio": "/audio/verbs/atur.mp3"
+    },
+    {
+      "id": 67,
+      "indonesian": "bersih",
+      "english": "to clean",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya bersih kamar",
+          "english": "I clean the room",
+          "svo": { "subject": "Saya", "verb": "bersih", "object": "kamar" }
+        },
+        {
+          "indonesian": "Dia bersih rumah",
+          "english": "He/She cleans the house",
+          "svo": { "subject": "Dia", "verb": "bersih", "object": "rumah" }
+        },
+        {
+          "indonesian": "Kami bersih bersama",
+          "english": "We clean together",
+          "svo": { "subject": "Kami", "verb": "bersih", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/bersih.mp3"
+    },
+    {
+      "id": 68,
+      "indonesian": "lempar",
+      "english": "to throw",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya lempar bola",
+          "english": "I throw the ball",
+          "svo": { "subject": "Saya", "verb": "lempar", "object": "bola" }
+        },
+        {
+          "indonesian": "Dia lempar sampah",
+          "english": "He/She throws away trash",
+          "svo": { "subject": "Dia", "verb": "lempar", "object": "sampah" }
+        },
+        {
+          "indonesian": "Kami lempar jauh",
+          "english": "We throw far",
+          "svo": { "subject": "Kami", "verb": "lempar", "object": "jauh" }
+        }
+      ],
+      "audio": "/audio/verbs/lempar.mp3"
+    },
+    {
+      "id": 69,
+      "indonesian": "tangkap",
+      "english": "to catch",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tangkap bola",
+          "english": "I catch the ball",
+          "svo": { "subject": "Saya", "verb": "tangkap", "object": "bola" }
+        },
+        {
+          "indonesian": "Dia tangkap ikan",
+          "english": "He/She catches fish",
+          "svo": { "subject": "Dia", "verb": "tangkap", "object": "ikan" }
+        },
+        {
+          "indonesian": "Kami tangkap taksi",
+          "english": "We catch a taxi",
+          "svo": { "subject": "Kami", "verb": "tangkap", "object": "taksi" }
+        }
+      ],
+      "audio": "/audio/verbs/tangkap.mp3"
+    },
+    {
+      "id": 70,
+      "indonesian": "pukul",
+      "english": "to hit",
+      "category": "movement",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya pukul drum",
+          "english": "I hit the drum",
+          "svo": { "subject": "Saya", "verb": "pukul", "object": "drum" }
+        },
+        {
+          "indonesian": "Dia pukul meja",
+          "english": "He/She hits the table",
+          "svo": { "subject": "Dia", "verb": "pukul", "object": "meja" }
+        },
+        {
+          "indonesian": "Kami pukul bola",
+          "english": "We hit the ball",
+          "svo": { "subject": "Kami", "verb": "pukul", "object": "bola" }
+        }
+      ],
+      "audio": "/audio/verbs/pukul.mp3"
+    },
+    {
+      "id": 71,
+      "indonesian": "tarik",
+      "english": "to pull",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tarik pintu",
+          "english": "I pull the door",
+          "svo": { "subject": "Saya", "verb": "tarik", "object": "pintu" }
+        },
+        {
+          "indonesian": "Dia tarik kursi",
+          "english": "He/She pulls the chair",
+          "svo": { "subject": "Dia", "verb": "tarik", "object": "kursi" }
+        },
+        {
+          "indonesian": "Kami tarik tali",
+          "english": "We pull the rope",
+          "svo": { "subject": "Kami", "verb": "tarik", "object": "tali" }
+        }
+      ],
+      "audio": "/audio/verbs/tarik.mp3"
+    },
+    {
+      "id": 72,
+      "indonesian": "dorong",
+      "english": "to push",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya dorong pintu",
+          "english": "I push the door",
+          "svo": { "subject": "Saya", "verb": "dorong", "object": "pintu" }
+        },
+        {
+          "indonesian": "Dia dorong mobil",
+          "english": "He/She pushes the car",
+          "svo": { "subject": "Dia", "verb": "dorong", "object": "mobil" }
+        },
+        {
+          "indonesian": "Kami dorong gerobak",
+          "english": "We push the cart",
+          "svo": { "subject": "Kami", "verb": "dorong", "object": "gerobak" }
+        }
+      ],
+      "audio": "/audio/verbs/dorong.mp3"
+    },
+    {
+      "id": 73,
+      "indonesian": "pegang",
+      "english": "to hold",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya pegang tas",
+          "english": "I hold the bag",
+          "svo": { "subject": "Saya", "verb": "pegang", "object": "tas" }
+        },
+        {
+          "indonesian": "Dia pegang tangan",
+          "english": "He/She holds hands",
+          "svo": { "subject": "Dia", "verb": "pegang", "object": "tangan" }
+        },
+        {
+          "indonesian": "Kami pegang erat",
+          "english": "We hold tight",
+          "svo": { "subject": "Kami", "verb": "pegang", "object": "erat" }
+        }
+      ],
+      "audio": "/audio/verbs/pegang.mp3"
+    },
+    {
+      "id": 74,
+      "indonesian": "angkat",
+      "english": "to lift/pick up",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya angkat kotak",
+          "english": "I lift the box",
+          "svo": { "subject": "Saya", "verb": "angkat", "object": "kotak" }
+        },
+        {
+          "indonesian": "Dia angkat telepon",
+          "english": "He/She picks up the phone",
+          "svo": { "subject": "Dia", "verb": "angkat", "object": "telepon" }
+        },
+        {
+          "indianesian": "Kami angkat barang",
+          "english": "We lift things",
+          "svo": { "subject": "Kami", "verb": "angkat", "object": "barang" }
+        }
+      ],
+      "audio": "/audio/verbs/angkat.mp3"
+    },
+    {
+      "id": 75,
+      "indonesian": "letakkan",
+      "english": "to put/place",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya letakkan buku",
+          "english": "I put the book",
+          "svo": { "subject": "Saya", "verb": "letakkan", "object": "buku" }
+        },
+        {
+          "indonesian": "Dia letakkan tas",
+          "english": "He/She places the bag",
+          "svo": { "subject": "Dia", "verb": "letakkan", "object": "tas" }
+        },
+        {
+          "indonesian": "Kami letakkan di sini",
+          "english": "We put it here",
+          "svo": { "subject": "Kami", "verb": "letakkan", "object": "di sini" }
+        }
+      ],
+      "audio": "/audio/verbs/letakkan.mp3"
+    },
+    {
+      "id": 76,
+      "indonesian": "sentuh",
+      "english": "to touch",
+      "category": "movement",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya sentuh layar",
+          "english": "I touch the screen",
+          "svo": { "subject": "Saya", "verb": "sentuh", "object": "layar" }
+        },
+        {
+          "indonesian": "Dia sentuh dinding",
+          "english": "He/She touches the wall",
+          "svo": { "subject": "Dia", "verb": "sentuh", "object": "dinding" }
+        },
+        {
+          "indonesian": "Kami sentuh air",
+          "english": "We touch the water",
+          "svo": { "subject": "Kami", "verb": "sentuh", "object": "air" }
+        }
+      ],
+      "audio": "/audio/verbs/sentuh.mp3"
+    },
+    {
+      "id": 77,
+      "indonesian": "panggil",
+      "english": "to call",
+      "category": "communication",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya panggil taksi",
+          "english": "I call a taxi",
+          "svo": { "subject": "Saya", "verb": "panggil", "object": "taksi" }
+        },
+        {
+          "indonesian": "Dia panggil nama",
+          "english": "He/She calls the name",
+          "svo": { "subject": "Dia", "verb": "panggil", "object": "nama" }
+        },
+        {
+          "indonesian": "Kami panggil teman",
+          "english": "We call friends",
+          "svo": { "subject": "Kami", "verb": "panggil", "object": "teman" }
+        }
+      ],
+      "audio": "/audio/verbs/panggil.mp3"
+    },
+    {
+      "id": 78,
+      "indonesian": "teriak",
+      "english": "to shout",
+      "category": "communication",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya teriak keras",
+          "english": "I shout loudly",
+          "svo": { "subject": "Saya", "verb": "teriak", "object": "keras" }
+        },
+        {
+          "indonesian": "Dia teriak bantuan",
+          "english": "He/She shouts for help",
+          "svo": { "subject": "Dia", "verb": "teriak", "object": "bantuan" }
+        },
+        {
+          "indonesian": "Kami teriak bersama",
+          "english": "We shout together",
+          "svo": { "subject": "Kami", "verb": "teriak", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/teriak.mp3"
+    },
+    {
+      "id": 79,
+      "indonesian": "tertawa",
+      "english": "to laugh",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya tertawa keras",
+          "english": "I laugh loudly",
+          "svo": { "subject": "Saya", "verb": "tertawa", "object": "keras" }
+        },
+        {
+          "indonesian": "Dia tertawa senang",
+          "english": "He/She laughs happily",
+          "svo": { "subject": "Dia", "verb": "tertawa", "object": "senang" }
+        },
+        {
+          "indonesian": "Kami tertawa bersama",
+          "english": "We laugh together",
+          "svo": { "subject": "Kami", "verb": "tertawa", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/tertawa.mp3"
+    },
+    {
+      "id": 80,
+      "indonesian": "menangis",
+      "english": "to cry",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya menangis sedih",
+          "english": "I cry sadly",
+          "svo": { "subject": "Saya", "verb": "menangis", "object": "sedih" }
+        },
+        {
+          "indonesian": "Dia menangis keras",
+          "english": "He/She cries loudly",
+          "svo": { "subject": "Dia", "verb": "menangis", "object": "keras" }
+        },
+        {
+          "indonesian": "Kami menangis terharu",
+          "english": "We cry touched",
+          "svo": { "subject": "Kami", "verb": "menangis", "object": "terharu" }
+        }
+      ],
+      "audio": "/audio/verbs/menangis.mp3"
+    },
+    {
+      "id": 81,
+      "indonesian": "senyum",
+      "english": "to smile",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya senyum bahagia",
+          "english": "I smile happily",
+          "svo": { "subject": "Saya", "verb": "senyum", "object": "bahagia" }
+        },
+        {
+          "indonesian": "Dia senyum manis",
+          "english": "He/She smiles sweetly",
+          "svo": { "subject": "Dia", "verb": "senyum", "object": "manis" }
+        },
+        {
+          "indonesian": "Kami senyum bersama",
+          "english": "We smile together",
+          "svo": { "subject": "Kami", "verb": "senyum", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/senyum.mp3"
+    },
+    {
+      "id": 82,
+      "indonesian": "marah",
+      "english": "to be angry",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya marah sekali",
+          "english": "I am very angry",
+          "svo": { "subject": "Saya", "verb": "marah", "object": "sekali" }
+        },
+        {
+          "indonesian": "Dia marah besar",
+          "english": "He/She is very angry",
+          "svo": { "subject": "Dia", "verb": "marah", "object": "besar" }
+        },
+        {
+          "indonesian": "Kami marah karena itu",
+          "english": "We are angry because of that",
+          "svo": { "subject": "Kami", "verb": "marah", "object": "karena itu" }
+        }
+      ],
+      "audio": "/audio/verbs/marah.mp3"
+    },
+    {
+      "id": 83,
+      "indonesian": "takut",
+      "english": "to be afraid",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya takut gelap",
+          "english": "I am afraid of the dark",
+          "svo": { "subject": "Saya", "verb": "takut", "object": "gelap" }
+        },
+        {
+          "indonesian": "Dia takut hantu",
+          "english": "He/She is afraid of ghosts",
+          "svo": { "subject": "Dia", "verb": "takut", "object": "hantu" }
+        },
+        {
+          "indonesian": "Kami takut ketinggian",
+          "english": "We are afraid of heights",
+          "svo": { "subject": "Kami", "verb": "takut", "object": "ketinggian" }
+        }
+      ],
+      "audio": "/audio/verbs/takut.mp3"
+    },
+    {
+      "id": 84,
+      "indonesian": "senang",
+      "english": "to be happy/glad",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya senang bertemu",
+          "english": "I am happy to meet",
+          "svo": { "subject": "Saya", "verb": "senang", "object": "bertemu" }
+        },
+        {
+          "indonesian": "Dia senang sekali",
+          "english": "He/She is very happy",
+          "svo": { "subject": "Dia", "verb": "senang", "object": "sekali" }
+        },
+        {
+          "indonesian": "Kami senang bersama",
+          "english": "We are happy together",
+          "svo": { "subject": "Kami", "verb": "senang", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/senang.mp3"
+    },
+    {
+      "id": 85,
+      "indonesian": "sedih",
+      "english": "to be sad",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya sedih sekali",
+          "english": "I am very sad",
+          "svo": { "subject": "Saya", "verb": "sedih", "object": "sekali" }
+        },
+        {
+          "indonesian": "Dia sedih mendengar",
+          "english": "He/She is sad to hear",
+          "svo": { "subject": "Dia", "verb": "sedih", "object": "mendengar" }
+        },
+        {
+          "indonesian": "Kami sedih bersama",
+          "english": "We are sad together",
+          "svo": { "subject": "Kami", "verb": "sedih", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/sedih.mp3"
+    },
+    {
+      "id": 86,
+      "indonesian": "capek",
+      "english": "to be tired",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya capek kerja",
+          "english": "I am tired from work",
+          "svo": { "subject": "Saya", "verb": "capek", "object": "kerja" }
+        },
+        {
+          "indonesian": "Dia capek sekali",
+          "english": "He/She is very tired",
+          "svo": { "subject": "Dia", "verb": "capek", "object": "sekali" }
+        },
+        {
+          "indonesian": "Kami capek jalan",
+          "english": "We are tired from walking",
+          "svo": { "subject": "Kami", "verb": "capek", "object": "jalan" }
+        }
+      ],
+      "audio": "/audio/verbs/capek.mp3"
+    },
+    {
+      "id": 87,
+      "indonesian": "lapar",
+      "english": "to be hungry",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya lapar sekali",
+          "english": "I am very hungry",
+          "svo": { "subject": "Saya", "verb": "lapar", "object": "sekali" }
+        },
+        {
+          "indonesian": "Dia lapar mau makan",
+          "english": "He/She is hungry wants to eat",
+          "svo": { "subject": "Dia", "verb": "lapar", "object": "mau makan" }
+        },
+        {
+          "indonesian": "Kami lapar bersama",
+          "english": "We are hungry together",
+          "svo": { "subject": "Kami", "verb": "lapar", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/lapar.mp3"
+    },
+    {
+      "id": 88,
+      "indonesian": "haus",
+      "english": "to be thirsty",
+      "category": "emotion",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya haus sekali",
+          "english": "I am very thirsty",
+          "svo": { "subject": "Saya", "verb": "haus", "object": "sekali" }
+        },
+        {
+          "indonesian": "Dia haus mau minum",
+          "english": "He/She is thirsty wants to drink",
+          "svo": { "subject": "Dia", "verb": "haus", "object": "mau minum" }
+        },
+        {
+          "indonesian": "Kami haus air",
+          "english": "We are thirsty for water",
+          "svo": { "subject": "Kami", "verb": "haus", "object": "air" }
+        }
+      ],
+      "audio": "/audio/verbs/haus.mp3"
+    },
+    {
+      "id": 89,
+      "indonesian": "sakit",
+      "english": "to be sick/hurt",
+      "category": "health",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya sakit kepala",
+          "english": "I have a headache",
+          "svo": { "subject": "Saya", "verb": "sakit", "object": "kepala" }
+        },
+        {
+          "indonesian": "Dia sakit perut",
+          "english": "He/She has a stomachache",
+          "svo": { "subject": "Dia", "verb": "sakit", "object": "perut" }
+        },
+        {
+          "indonesian": "Kami sakit flu",
+          "english": "We have the flu",
+          "svo": { "subject": "Kami", "verb": "sakit", "object": "flu" }
+        }
+      ],
+      "audio": "/audio/verbs/sakit.mp3"
+    },
+    {
+      "id": 90,
+      "indonesian": "sembuh",
+      "english": "to recover/heal",
+      "category": "health",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya sembuh cepat",
+          "english": "I recover quickly",
+          "svo": { "subject": "Saya", "verb": "sembuh", "object": "cepat" }
+        },
+        {
+          "indonesian": "Dia sembuh total",
+          "english": "He/She recovers completely",
+          "svo": { "subject": "Dia", "verb": "sembuh", "object": "total" }
+        },
+        {
+          "indonesian": "Kami sembuh bersama",
+          "english": "We recover together",
+          "svo": { "subject": "Kami", "verb": "sembuh", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/sembuh.mp3"
+    },
+    {
+      "id": 91,
+      "indonesian": "istirahat",
+      "english": "to rest",
+      "category": "daily_actions",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya istirahat sebentar",
+          "english": "I rest a bit",
+          "svo": { "subject": "Saya", "verb": "istirahat", "object": "sebentar" }
+        },
+        {
+          "indonesian": "Dia istirahat di rumah",
+          "english": "He/She rests at home",
+          "svo": { "subject": "Dia", "verb": "istirahat", "object": "di rumah" }
+        },
+        {
+          "indonesian": "Kami istirahat bersama",
+          "english": "We rest together",
+          "svo": { "subject": "Kami", "verb": "istirahat", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/istirahat.mp3"
+    },
+    {
+      "id": 92,
+      "indonesian": "menikah",
+      "english": "to marry/get married",
+      "category": "life_events",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya menikah tahun ini",
+          "english": "I get married this year",
+          "svo": { "subject": "Saya", "verb": "menikah", "object": "tahun ini" }
+        },
+        {
+          "indonesian": "Dia menikah dengan cinta",
+          "english": "He/She marries with love",
+          "svo": { "subject": "Dia", "verb": "menikah", "object": "dengan cinta" }
+        },
+        {
+          "indonesian": "Kami menikah bulan depan",
+          "english": "We get married next month",
+          "svo": { "subject": "Kami", "verb": "menikah", "object": "bulan depan" }
+        }
+      ],
+      "audio": "/audio/verbs/menikah.mp3"
+    },
+    {
+      "id": 93,
+      "indonesian": "lahir",
+      "english": "to be born",
+      "category": "life_events",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya lahir di Jakarta",
+          "english": "I was born in Jakarta",
+          "svo": { "subject": "Saya", "verb": "lahir", "object": "di Jakarta" }
+        },
+        {
+          "indonesian": "Dia lahir tahun 1990",
+          "english": "He/She was born in 1990",
+          "svo": { "subject": "Dia", "verb": "lahir", "object": "tahun 1990" }
+        },
+        {
+          "indonesian": "Kami lahir kembar",
+          "english": "We were born twins",
+          "svo": { "subject": "Kami", "verb": "lahir", "object": "kembar" }
+        }
+      ],
+      "audio": "/audio/verbs/lahir.mp3"
+    },
+    {
+      "id": 94,
+      "indonesian": "mati",
+      "english": "to die",
+      "category": "life_events",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Dia mati muda",
+          "english": "He/She died young",
+          "svo": { "subject": "Dia", "verb": "mati", "object": "muda" }
+        },
+        {
+          "indonesian": "Tanaman mati kering",
+          "english": "The plant died dry",
+          "svo": { "subject": "Tanaman", "verb": "mati", "object": "kering" }
+        },
+        {
+          "indonesian": "Bunga mati layu",
+          "english": "The flower died wilted",
+          "svo": { "subject": "Bunga", "verb": "mati", "object": "layu" }
+        }
+      ],
+      "audio": "/audio/verbs/mati.mp3"
+    },
+    {
+      "id": 95,
+      "indonesian": "hidup",
+      "english": "to live/be alive",
+      "category": "life_events",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya hidup bahagia",
+          "english": "I live happily",
+          "svo": { "subject": "Saya", "verb": "hidup", "object": "bahagia" }
+        },
+        {
+          "indonesian": "Dia hidup sendiri",
+          "english": "He/She lives alone",
+          "svo": { "subject": "Dia", "verb": "hidup", "object": "sendiri" }
+        },
+        {
+          "indonesian": "Kami hidup bersama",
+          "english": "We live together",
+          "svo": { "subject": "Kami", "verb": "hidup", "object": "bersama" }
+        }
+      ],
+      "audio": "/audio/verbs/hidup.mp3"
+    },
+    {
+      "id": 96,
+      "indonesian": "tumbuh",
+      "english": "to grow",
+      "category": "life_events",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya tumbuh di desa",
+          "english": "I grow up in the village",
+          "svo": { "subject": "Saya", "verb": "tumbuh", "object": "di desa" }
+        },
+        {
+          "indonesian": "Tanaman tumbuh cepat",
+          "english": "Plants grow fast",
+          "svo": { "subject": "Tanaman", "verb": "tumbuh", "object": "cepat" }
+        },
+        {
+          "indonesian": "Anak tumbuh besar",
+          "english": "Children grow big",
+          "svo": { "subject": "Anak", "verb": "tumbuh", "object": "besar" }
+        }
+      ],
+      "audio": "/audio/verbs/tumbuh.mp3"
+    },
+    {
+      "id": 97,
+      "indonesian": "berubah",
+      "english": "to change",
+      "category": "life_events",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya berubah banyak",
+          "english": "I change a lot",
+          "svo": { "subject": "Saya", "verb": "berubah", "object": "banyak" }
+        },
+        {
+          "indonesian": "Cuaca berubah cepat",
+          "english": "The weather changes quickly",
+          "svo": { "subject": "Cuaca", "verb": "berubah", "object": "cepat" }
+        },
+        {
+          "indonesian": "Dunia berubah terus",
+          "english": "The world keeps changing",
+          "svo": { "subject": "Dunia", "verb": "berubah", "object": "terus" }
+        }
+      ],
+      "audio": "/audio/verbs/berubah.mp3"
+    },
+    {
+      "id": 98,
+      "indonesian": "harap",
+      "english": "to hope",
+      "category": "mental",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya harap berhasil",
+          "english": "I hope to succeed",
+          "svo": { "subject": "Saya", "verb": "harap", "object": "berhasil" }
+        },
+        {
+          "indonesian": "Dia harap menang",
+          "english": "He/She hopes to win",
+          "svo": { "subject": "Dia", "verb": "harap", "object": "menang" }
+        },
+        {
+          "indonesian": "Kami harap bertemu lagi",
+          "english": "We hope to meet again",
+          "svo": { "subject": "Kami", "verb": "harap", "object": "bertemu lagi" }
+        }
+      ],
+      "audio": "/audio/verbs/harap.mp3"
+    },
+    {
+      "id": 99,
+      "indonesian": "percaya",
+      "english": "to believe/trust",
+      "category": "mental",
+      "difficulty": 2,
+      "examples": [
+        {
+          "indonesian": "Saya percaya dia",
+          "english": "I believe him/her",
+          "svo": { "subject": "Saya", "verb": "percaya", "object": "dia" }
+        },
+        {
+          "indonesian": "Dia percaya kata saya",
+          "english": "He/She trusts my words",
+          "svo": { "subject": "Dia", "verb": "percaya", "object": "kata saya" }
+        },
+        {
+          "indonesian": "Kami percaya Tuhan",
+          "english": "We believe in God",
+          "svo": { "subject": "Kami", "verb": "percaya", "object": "Tuhan" }
+        }
+      ],
+      "audio": "/audio/verbs/percaya.mp3"
+    },
+    {
+      "id": 100,
+      "indonesian": "pikir",
+      "english": "to think",
+      "category": "mental",
+      "difficulty": 1,
+      "examples": [
+        {
+          "indonesian": "Saya pikir begitu",
+          "english": "I think so",
+          "svo": { "subject": "Saya", "verb": "pikir", "object": "begitu" }
+        },
+        {
+          "indonesian": "Dia pikir panjang",
+          "english": "He/She thinks long",
+          "svo": { "subject": "Dia", "verb": "pikir", "object": "panjang" }
+        },
+        {
+          "indonesian": "Kami pikir keras",
+          "english": "We think hard",
+          "svo": { "subject": "Kami", "verb": "pikir", "object": "keras" }
+        }
+      ],
+      "audio": "/audio/verbs/pikir.mp3"
+    }
+  ],
+  "categories": {
+    "daily_actions": "Daily Actions",
+    "movement": "Movement",
+    "communication": "Communication",
+    "mental": "Mental",
+    "emotion": "Emotion",
+    "leisure": "Leisure",
+    "health": "Health",
+    "life_events": "Life Events"
+  }
+}
