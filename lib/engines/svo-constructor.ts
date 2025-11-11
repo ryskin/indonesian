@@ -37,10 +37,12 @@ interface VocabularyWord {
 export class SVOConstructor {
   private verbs: Verb[]
   private subjects: VocabularyWord[]
+  private vocabulary: any
 
   constructor(verbsData: { verbs: Verb[] }, vocabularyData: any) {
     this.verbs = verbsData.verbs
     this.subjects = vocabularyData.vocabulary.pronouns.words
+    this.vocabulary = vocabularyData.vocabulary
   }
 
   buildSentence(subject: string, verbId: number, object: string): Sentence {
@@ -52,7 +54,9 @@ export class SVOConstructor {
 
     const indonesian = `${subject} ${verb.indonesian} ${object}`
     const subjectEn = this.translateSubject(subject)
-    const english = `${subjectEn} ${verb.english} ${object}`
+    const objectEn = this.translateObject(object)
+    const verbEn = this.cleanVerbTranslation(verb.english)
+    const english = `${subjectEn} ${verbEn} ${objectEn}`
 
     return {
       indonesian,
@@ -76,7 +80,9 @@ export class SVOConstructor {
 
     const indonesian = `${subject} tidak ${verb.indonesian} ${object}`
     const subjectEn = this.translateSubject(subject)
-    const english = `${subjectEn} don't/doesn't ${verb.english} ${object}`
+    const objectEn = this.translateObject(object)
+    const verbEn = this.cleanVerbTranslation(verb.english)
+    const english = `${subjectEn} don't/doesn't ${verbEn} ${objectEn}`
 
     return {
       indonesian,
@@ -112,7 +118,9 @@ export class SVOConstructor {
     const marker = timeMarkers[timeMarker]
     const indonesian = `${subject} ${marker.indonesian} ${verb.indonesian} ${object}`
     const subjectEn = this.translateSubject(subject)
-    const english = `${subjectEn} ${marker.english} ${verb.english} ${object}`
+    const objectEn = this.translateObject(object)
+    const verbEn = this.cleanVerbTranslation(verb.english)
+    const english = `${subjectEn} ${marker.english} ${verbEn} ${objectEn}`
 
     return {
       indonesian,
@@ -194,7 +202,39 @@ export class SVOConstructor {
 
   private translateSubject(indonesianSubject: string): string {
     const subject = this.subjects.find((s) => s.indonesian === indonesianSubject)
-    return subject ? subject.english : indonesianSubject
+    if (!subject) return indonesianSubject
+
+    // Clean up subject translation - take first option, remove parentheses
+    let translation = subject.english.split(',')[0].trim()
+    translation = translation.replace(/\s*\(.*?\)\s*/g, '').trim()
+    return translation
+  }
+
+  private translateObject(indonesianObject: string): string {
+    // Search through all vocabulary categories for the object
+    for (const category of Object.values(this.vocabulary)) {
+      if (category && typeof category === 'object' && 'words' in category) {
+        const words = category.words as VocabularyWord[]
+        const word = words.find((w) => w.indonesian === indonesianObject)
+        if (word) {
+          // Clean up translation - take first option, remove parentheses
+          let translation = word.english.split(',')[0].trim()
+          translation = translation.replace(/\s*\(.*?\)\s*/g, '').trim()
+          return translation
+        }
+      }
+    }
+    return indonesianObject
+  }
+
+  private cleanVerbTranslation(verbEnglish: string): string {
+    // Remove "to " prefix from verb if present
+    let cleaned = verbEnglish.replace(/^to\s+/i, '').trim()
+    // Take first option if multiple
+    cleaned = cleaned.split(',')[0].trim()
+    // Remove parentheses
+    cleaned = cleaned.replace(/\s*\(.*?\)\s*/g, '').trim()
+    return cleaned
   }
 
   private getRandomItem<T>(array: T[]): T {

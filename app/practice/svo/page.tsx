@@ -13,6 +13,7 @@ export default function SVOConstructorPage() {
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null)
   const [selectedVerb, setSelectedVerb] = useState<number | null>(null)
   const [selectedObject, setSelectedObject] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string>('food')
   const [result, setResult] = useState<any>(null)
   const [feedback, setFeedback] = useState<string | null>(null)
   const { incrementXP, updateStats, userStats } = useAppStore()
@@ -24,11 +25,32 @@ export default function SVOConstructorPage() {
 
   const subjects = vocabularyData.vocabulary.pronouns.words
   const verbs = verbsData.verbs.slice(0, 20) // First 20 verbs for simplicity
-  const objects = [
-    'nasi', 'kopi', 'air', 'roti', 'ayam',
-    'buku', 'film', 'musik', 'teman', 'rumah',
-    'sekolah', 'kantor', 'pasar', 'hotel', 'taksi'
-  ]
+
+  // Objects organized by category with translations
+  const objectCategories = {
+    food: {
+      name: 'Food & Drinks',
+      icon: '🍽',
+      items: vocabularyData.vocabulary.food.words.slice(0, 15)
+    },
+    places: {
+      name: 'Places',
+      icon: '📍',
+      items: vocabularyData.vocabulary.places.words.slice(0, 12)
+    },
+    transportation: {
+      name: 'Transport',
+      icon: '🚗',
+      items: vocabularyData.vocabulary.transportation.words
+    },
+    people: {
+      name: 'People',
+      icon: '👥',
+      items: vocabularyData.vocabulary.family.words.slice(0, 8)
+    }
+  }
+
+  const currentObjects = objectCategories[selectedCategory as keyof typeof objectCategories]?.items || []
 
   const buildSentence = () => {
     if (!constructor || !selectedSubject || selectedVerb === null || !selectedObject) {
@@ -164,8 +186,11 @@ export default function SVOConstructorPage() {
               {selectedObject ? (
                 <div className="flex-1 flex items-center justify-center">
                   <div className="text-center">
-                    <p className="text-3xl font-bold text-purple-700">
+                    <p className="text-3xl font-bold text-purple-700 mb-1">
                       {selectedObject}
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      {currentObjects.find(o => o.indonesian === selectedObject)?.english}
                     </p>
                   </div>
                 </div>
@@ -224,18 +249,42 @@ export default function SVOConstructorPage() {
             {/* Objects */}
             <div>
               <h3 className="font-semibold text-gray-700 mb-3">🎯 Choose Object:</h3>
-              <div className="flex flex-wrap gap-2">
-                {objects.map((object) => (
+
+              {/* Category Tabs */}
+              <div className="flex gap-2 mb-4 overflow-x-auto pb-2">
+                {Object.entries(objectCategories).map(([key, category]) => (
                   <button
-                    key={object}
-                    onClick={() => setSelectedObject(object)}
-                    className={`px-4 py-2 rounded-lg font-semibold transition-all ${
-                      selectedObject === object
+                    key={key}
+                    onClick={() => {
+                      setSelectedCategory(key)
+                      setSelectedObject(null) // Reset object when changing category
+                    }}
+                    className={`px-4 py-2 rounded-lg whitespace-nowrap transition-all ${
+                      selectedCategory === key
+                        ? 'bg-purple-500 text-white shadow-lg'
+                        : 'bg-white text-gray-700 hover:bg-purple-50 border border-gray-200'
+                    }`}
+                  >
+                    <span className="mr-2">{category.icon}</span>
+                    {category.name}
+                  </button>
+                ))}
+              </div>
+
+              {/* Objects in selected category */}
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                {currentObjects.map((object) => (
+                  <button
+                    key={object.indonesian}
+                    onClick={() => setSelectedObject(object.indonesian)}
+                    className={`px-3 py-2 rounded-lg transition-all text-left ${
+                      selectedObject === object.indonesian
                         ? 'bg-purple-500 text-white shadow-lg scale-105'
                         : 'bg-white text-gray-700 hover:bg-purple-50 border border-gray-200'
                     }`}
                   >
-                    {object}
+                    <div className="font-semibold">{object.indonesian}</div>
+                    <div className="text-xs opacity-70">{object.english}</div>
                   </button>
                 ))}
               </div>
@@ -313,7 +362,11 @@ export default function SVOConstructorPage() {
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>Try different combinations to create hundreds of sentences</span>
+              <span>Switch between object categories (Food, Places, Transport, People) for variety</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary-500 mt-0.5">✓</span>
+              <span>Try different combinations to create hundreds of logical sentences</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
@@ -321,7 +374,7 @@ export default function SVOConstructorPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-500 mt-0.5">✓</span>
-              <span>The more sentences you create, the more natural it becomes!</span>
+              <span>Think about which objects make sense with each verb (e.g., "eat rice", "go to hotel")</span>
             </li>
           </ul>
         </div>
