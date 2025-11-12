@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useAppStore } from '@/lib/store/useAppStore'
@@ -23,9 +23,9 @@ export default function FlashcardsPage() {
   const allFlashcards = useMemo(() => generateAllFlashcards(), [])
 
   // Get flashcard SRS data
-  const getCardData = (cardId: string): FlashcardData => {
+  const getCardData = useCallback((cardId: string): FlashcardData => {
     return flashcardProgress[cardId] || SRSEngine.createCard(cardId)
-  }
+  }, [flashcardProgress])
 
   // Filter cards based on mode
   const filteredCards = useMemo(() => {
@@ -40,7 +40,7 @@ export default function FlashcardsPage() {
       return cardsWithData.filter((c) => SRSEngine.isDue(c.srsData)).slice(0, 30)
     }
     return cardsWithData.slice(0, 50)
-  }, [allFlashcards, flashcardProgress, selectedMode])
+  }, [allFlashcards, getCardData, selectedMode])
 
   useEffect(() => {
     if (filteredCards.length > 0 && sessionCards.length === 0) {
@@ -48,7 +48,7 @@ export default function FlashcardsPage() {
       setStartTime(Date.now())
       startSession()
     }
-  }, [filteredCards])
+  }, [filteredCards, sessionCards.length, startSession])
 
   const currentCard = sessionCards[currentCardIndex]
   const progressPercent = sessionCards.length > 0 ? ((currentCardIndex + 1) / sessionCards.length) * 100 : 0
