@@ -26,10 +26,13 @@ export default function SVOConstructorPage() {
   const subjects = vocabularyData.vocabulary.pronouns.words
   const verbs = verbsData.verbs.slice(0, 20) // First 20 verbs for simplicity
 
+  // Define which items are drinkable (for minum verb)
+  const drinkableItems = ['kopi', 'teh', 'air', 'susu', 'jus', 'sup']
+
   // Verb-to-category mapping: which object categories make sense for each verb
   const verbCategoryMapping: { [verbId: number]: string[] } = {
     1: ['food'], // makan (eat) → food
-    2: ['food'], // minum (drink) → drinks/food
+    2: ['food'], // minum (drink) → drinks only
     3: ['places'], // pergi (go) → places
     4: ['places'], // datang (come) → places
     5: ['food', 'places', 'transportation', 'people'], // lihat (see) → universal
@@ -91,7 +94,12 @@ export default function SVOConstructorPage() {
   }
 
   const availableCategories = getAvailableCategories()
-  const currentObjects = availableCategories[selectedCategory as keyof typeof availableCategories]?.items || []
+  let currentObjects = availableCategories[selectedCategory as keyof typeof availableCategories]?.items || []
+
+  // Filter to only drinkable items when minum (verb #2) is selected
+  if (selectedVerb === 2 && selectedCategory === 'food') {
+    currentObjects = currentObjects.filter(item => drinkableItems.includes(item.indonesian))
+  }
 
   const handleVerbSelect = (verbId: number) => {
     setSelectedVerb(verbId)
