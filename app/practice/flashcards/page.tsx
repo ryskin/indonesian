@@ -105,7 +105,7 @@ export default function FlashcardsPage() {
   const stats = useMemo(() => {
     const allCardsData = allFlashcards.map((card) => getCardData(card.id))
     return SRSEngine.getStats(allCardsData)
-  }, [allFlashcards, flashcardProgress])
+  }, [allFlashcards, getCardData])
 
   const flashcardTotalStats = useMemo(() => getFlashcardStats(), [])
 
@@ -369,7 +369,7 @@ export default function FlashcardsPage() {
               >
                 <div className="text-2xl mb-1">😓</div>
                 <div className="font-semibold text-red-900">Again</div>
-                <div className="text-xs text-red-600">< 1 day</div>
+                <div className="text-xs text-red-600">&lt; 1 day</div>
               </button>
               <button
                 onClick={() => handleRating(3)}
