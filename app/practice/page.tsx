@@ -8,11 +8,19 @@ export default function PracticePage() {
 
   const practiceOptions = [
     {
+      title: 'Flashcards',
+      description: 'Spaced repetition vocabulary practice',
+      icon: '🎴',
+      href: '/practice/flashcards',
+      stats: `${userStats.flashcardsMastered || 0} mastered`,
+      color: 'from-teal-500 to-teal-600'
+    },
+    {
       title: 'Verb Practice',
       description: 'Master 100 essential Indonesian verbs',
       icon: '📘',
       href: '/practice/verbs',
-      stats: `${userStats.verbsMastered}/100 mastered`,
+      stats: `${userStats.verbsMastered.length}/100 mastered`,
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -20,7 +28,7 @@ export default function PracticePage() {
       description: '30 key sentence structures',
       icon: '🎯',
       href: '/practice/patterns',
-      stats: `${userStats.patternsMastered}/30 learned`,
+      stats: `${userStats.patternsMastered.length}/30 learned`,
       color: 'from-purple-500 to-purple-600'
     },
     {
@@ -50,13 +58,6 @@ export default function PracticePage() {
       color: 'bg-orange-50 border-orange-500'
     },
     {
-      title: 'Flashcards',
-      description: 'Quick vocabulary review',
-      icon: '🎴',
-      action: 'Coming Soon',
-      color: 'bg-teal-50 border-teal-500'
-    },
-    {
       title: 'Pronunciation',
       description: 'Practice speaking skills',
       icon: '🗣',
@@ -69,6 +70,13 @@ export default function PracticePage() {
       icon: '👂',
       action: 'Coming Soon',
       color: 'bg-rose-50 border-rose-500'
+    },
+    {
+      title: 'Grammar',
+      description: 'Learn sentence structure rules',
+      icon: '📖',
+      action: 'Coming Soon',
+      color: 'bg-blue-50 border-blue-500'
     }
   ]
 

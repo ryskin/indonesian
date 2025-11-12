@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { FlashcardData } from '@/lib/engines/srs'
 
 interface UserStats {
   streak: number
@@ -18,6 +19,8 @@ interface UserStats {
   totalAnswers: number
   lastStudyDate: string | null
   achievements: string[]
+  flashcardsReviewed: number
+  flashcardsMastered: number
 }
 
 interface UserSettings {
@@ -54,6 +57,11 @@ interface AppState {
   startSession: () => void
   endSession: () => void
 
+  // Flashcards
+  flashcardProgress: { [cardId: string]: FlashcardData }
+  updateFlashcard: (cardId: string, data: FlashcardData) => void
+  getFlashcardProgress: (cardId: string) => FlashcardData | undefined
+
   // Reset
   resetProgress: () => void
 }
@@ -75,6 +83,8 @@ const initialStats: UserStats = {
   totalAnswers: 0,
   lastStudyDate: null,
   achievements: [],
+  flashcardsReviewed: 0,
+  flashcardsMastered: 0,
 }
 
 const initialSettings: UserSettings = {
@@ -95,6 +105,7 @@ export const useAppStore = create<AppState>()(
       currentDay: 1,
       settings: initialSettings,
       sessionStartTime: null,
+      flashcardProgress: {},
 
       // Stats Updates
       updateStats: (stats) =>
@@ -224,12 +235,40 @@ export const useAppStore = create<AppState>()(
           }
         }),
 
+      // Flashcards
+      updateFlashcard: (cardId, data) =>
+        set((state) => {
+          const isMastered = data.stage === 'mastered'
+          const wasMastered = state.flashcardProgress[cardId]?.stage === 'mastered'
+          const newMasteredCount =
+            isMastered && !wasMastered
+              ? state.userStats.flashcardsMastered + 1
+              : state.userStats.flashcardsMastered
+
+          return {
+            flashcardProgress: {
+              ...state.flashcardProgress,
+              [cardId]: data,
+            },
+            userStats: {
+              ...state.userStats,
+              flashcardsReviewed: state.userStats.flashcardsReviewed + 1,
+              flashcardsMastered: newMasteredCount,
+            },
+          }
+        }),
+
+      getFlashcardProgress: (cardId) => {
+        return get().flashcardProgress[cardId]
+      },
+
       // Reset
       resetProgress: () =>
         set({
           userStats: initialStats,
           currentWeek: 1,
           currentDay: 1,
+          flashcardProgress: {},
         }),
     }),
     {

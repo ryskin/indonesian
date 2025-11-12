@@ -209,6 +209,21 @@ export default function DashboardPage() {
             </Link>
 
             <Link
+              href="/practice/flashcards"
+              className="card hover:shadow-lg transition-shadow p-6 border-2 border-transparent hover:border-teal-500 bg-gradient-to-br from-teal-50 to-cyan-50"
+            >
+              <div className="flex items-center gap-4">
+                <div className="text-4xl">🎴</div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">Flashcards</h4>
+                  <p className="text-sm text-gray-600">
+                    Spaced repetition practice
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link
               href="/practice/verbs"
               className="card hover:shadow-lg transition-shadow p-6 border-2 border-transparent hover:border-primary-500"
             >
