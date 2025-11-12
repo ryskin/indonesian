@@ -2,14 +2,12 @@
 
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { useAppStore } from '@/lib/store/useAppStore'
 import { SRSEngine, FlashcardData } from '@/lib/engines/srs'
 import { generateAllFlashcards, Flashcard, getFlashcardStats } from '@/lib/data/flashcards'
 import AudioPlayer from '@/components/audio/AudioPlayer'
 
 export default function FlashcardsPage() {
-  const router = useRouter()
   const { flashcardProgress, updateFlashcard, incrementXP, updateStats, userStats, startSession } = useAppStore()
   const [selectedMode, setSelectedMode] = useState<'all' | 'due' | 'new'>('due')
   const [currentCardIndex, setCurrentCardIndex] = useState(0)
