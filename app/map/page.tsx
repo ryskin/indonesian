@@ -65,7 +65,7 @@ export default function LanguageMapPage() {
 
     const nextNodes = recommendNextNodes(completedNodeIds, { nodes: positionedNodes, connections })
     setRecommendations(nextNodes)
-  }, [userStats])
+  }, [userStats, getNodeProgress])
 
   const getNodeColor = (node: GraphNode, progress: number): string => {
     if (node.id === hoveredNode || node.id === selectedNode?.id) {
@@ -245,7 +245,11 @@ export default function LanguageMapPage() {
                 const fromNode = graph.nodes.find(n => n.id === conn.from)
                 const toNode = graph.nodes.find(n => n.id === conn.to)
 
-                if (!fromNode || !toNode || !fromNode.x || !fromNode.y || !toNode.x || !toNode.y) {
+                if (!fromNode || !toNode ||
+                    fromNode.x === undefined || fromNode.y === undefined ||
+                    toNode.x === undefined || toNode.y === undefined ||
+                    fromNode.x === null || fromNode.y === null ||
+                    toNode.x === null || toNode.y === null) {
                   return null
                 }
 
@@ -288,7 +292,7 @@ export default function LanguageMapPage() {
             {/* Nodes */}
             <g className="nodes">
               {graph.nodes.map(node => {
-                if (!node.x || !node.y) return null
+                if (node.x === undefined || node.y === undefined || node.x === null || node.y === null) return null
 
                 const progress = getNodeProgress(node)
                 const color = getNodeColor(node, progress)
@@ -297,15 +301,11 @@ export default function LanguageMapPage() {
                 return (
                   <g
                     key={node.id}
-                    transform={`translate(${node.x}, ${node.y})`}
+                    transform={`translate(${node.x}, ${node.y})${hoveredNode === node.id ? ' scale(1.1)' : ''}`}
                     onMouseEnter={() => setHoveredNode(node.id)}
                     onMouseLeave={() => setHoveredNode(null)}
                     onClick={() => handleNodeClick(node)}
                     className="cursor-pointer transition-all duration-300"
-                    style={{
-                      transform: hoveredNode === node.id ? 'scale(1.1)' : 'scale(1)',
-                      transformOrigin: `${node.x}px ${node.y}px`
-                    }}
                   >
                     {/* Progress ring */}
                     {progress > 0 && node.type !== 'user' && (
