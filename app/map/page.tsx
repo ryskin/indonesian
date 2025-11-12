@@ -116,7 +116,7 @@ export default function LanguageMapPage() {
     }
   }
 
-  const viewBox = '0 0 800 600'
+  const viewBox = '0 0 1000 800'
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-primary-50 pb-24">
@@ -237,7 +237,7 @@ export default function LanguageMapPage() {
           <svg
             viewBox={viewBox}
             className="w-full h-auto"
-            style={{ minHeight: '600px', background: 'linear-gradient(to bottom right, #f9fafb, #f3f4f6)' }}
+            style={{ minHeight: '500px', background: 'linear-gradient(to bottom right, #f9fafb, #f3f4f6)' }}
           >
             {/* Connections with semantic types */}
             <g className="connections">

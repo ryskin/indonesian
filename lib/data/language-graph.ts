@@ -602,8 +602,8 @@ export function recommendNextNodes(
 
 // Calculate position for force-directed layout
 export function calculateNodePositions(nodes: GraphNode[]): GraphNode[] {
-  const centerX = 400
-  const centerY = 300
+  const centerX = 500
+  const centerY = 400
 
   return nodes.map(node => {
     if (node.type === 'user') {
@@ -616,9 +616,9 @@ export function calculateNodePositions(nodes: GraphNode[]): GraphNode[] {
     const angle = (nodeIndex / nodesOfType) * 2 * Math.PI
 
     let radius = 0
-    if (node.type === 'category') radius = 150
-    if (node.type === 'scene') radius = 280
-    if (node.type === 'verb' || node.type === 'pattern') radius = 420
+    if (node.type === 'category') radius = 100
+    if (node.type === 'scene') radius = 200
+    if (node.type === 'verb' || node.type === 'pattern') radius = 320
 
     return {
       ...node,
