@@ -194,6 +194,21 @@ export default function DashboardPage() {
           <h3 className="text-xl font-bold text-gray-900 mb-6">Quick Practice</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <Link
+              href="/map"
+              className="card hover:shadow-lg transition-shadow p-6 border-2 border-transparent hover:border-success-500 bg-gradient-to-br from-success-50 to-primary-50"
+            >
+              <div className="flex items-center gap-4">
+                <div className="text-4xl">🗺️</div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">Language Map</h4>
+                  <p className="text-sm text-gray-600">
+                    See your learning journey
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link
               href="/practice/verbs"
               className="card hover:shadow-lg transition-shadow p-6 border-2 border-transparent hover:border-primary-500"
             >

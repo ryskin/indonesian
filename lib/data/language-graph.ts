@@ -277,7 +277,47 @@ export const buildLanguageGraph = (): {
       type: 'verb',
       label: 'ketemu (meet)',
       icon: '🤝',
-      connections: ['people-cat'],
+      connections: ['people-cat', 'greeting-scene'],
+      requiredForProgress: 3
+    },
+    {
+      id: 'verb-like',
+      type: 'verb',
+      label: 'suka (like)',
+      icon: '❤️',
+      connections: ['food-cat', 'people-cat', 'cafe-scene'],
+      requiredForProgress: 3
+    },
+    {
+      id: 'verb-need',
+      type: 'verb',
+      label: 'butuh (need)',
+      icon: '🎯',
+      connections: ['food-cat', 'shopping-scene'],
+      requiredForProgress: 3
+    },
+    {
+      id: 'verb-know',
+      type: 'verb',
+      label: 'tahu (know)',
+      icon: '🧠',
+      connections: ['people-cat', 'daily-cat'],
+      requiredForProgress: 3
+    },
+    {
+      id: 'verb-understand',
+      type: 'verb',
+      label: 'mengerti (understand)',
+      icon: '💡',
+      connections: ['people-cat', 'daily-cat'],
+      requiredForProgress: 3
+    },
+    {
+      id: 'verb-help',
+      type: 'verb',
+      label: 'bantu (help)',
+      icon: '🤲',
+      connections: ['people-cat', 'daily-cat'],
       requiredForProgress: 3
     },
 
@@ -320,6 +360,30 @@ export const buildLanguageGraph = (): {
       label: 'Di mana...?',
       icon: '📍',
       connections: ['directions-scene'],
+      requiredForProgress: 5
+    },
+    {
+      id: 'pattern-like',
+      type: 'pattern',
+      label: 'Saya suka...',
+      icon: '❤️',
+      connections: ['verb-like', 'cafe-scene'],
+      requiredForProgress: 5
+    },
+    {
+      id: 'pattern-can',
+      type: 'pattern',
+      label: 'Bisa...?',
+      icon: '✅',
+      connections: ['verb-speak', 'greeting-scene'],
+      requiredForProgress: 5
+    },
+    {
+      id: 'pattern-negative',
+      type: 'pattern',
+      label: 'Tidak...',
+      icon: '❌',
+      connections: ['user'],
       requiredForProgress: 5
     }
   ]

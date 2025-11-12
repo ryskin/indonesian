@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useAppStore } from '@/lib/store/useAppStore'
@@ -24,7 +24,7 @@ export default function LanguageMapPage() {
   })
   const [recommendations, setRecommendations] = useState<GraphNode[]>([])
 
-  const getNodeProgress = (node: GraphNode): number => {
+  const getNodeProgress = useCallback((node: GraphNode): number => {
     // Calculate progress based on user stats
     if (node.type === 'user') return 100
 
@@ -44,18 +44,14 @@ export default function LanguageMapPage() {
     }
 
     if (node.type === 'category') {
-      // Average of connected scenes
-      const connectedScenes = graph.nodes.filter(
-        n => n.type === 'scene' && n.connections.includes(node.id)
-      )
-      const avgProgress =
-        connectedScenes.reduce((sum, scene) => sum + getNodeProgress(scene), 0) /
-        (connectedScenes.length || 1)
-      return avgProgress
+      // Average of connected scenes (simplified to avoid recursion in useCallback)
+      const verbsCompleted = userStats.verbsMastered || 0
+      const dialoguesCompleted = userStats.totalDialoguesCompleted || 0
+      return Math.min(((verbsCompleted + dialoguesCompleted) / 130) * 100, 100)
     }
 
     return 0
-  }
+  }, [userStats.verbsMastered, userStats.patternsMastered, userStats.totalDialoguesCompleted])
 
   useEffect(() => {
     const { nodes, connections } = buildLanguageGraph()
@@ -142,10 +138,18 @@ export default function LanguageMapPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Instructions */}
         <div className="card bg-gradient-to-r from-primary-50 to-success-50 border-primary-500 mb-8">
-          <h2 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl">🗺️</span>
-            How to use the Language Map
-          </h2>
+          <div className="flex items-start justify-between mb-4">
+            <div>
+              <h2 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                <span className="text-2xl">🗺️</span>
+                How to use the Language Map
+              </h2>
+            </div>
+            <div className="text-right">
+              <p className="text-sm text-gray-600">Total nodes</p>
+              <p className="text-2xl font-bold text-primary-600">{graph.nodes.length}</p>
+            </div>
+          </div>
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
               <span className="text-primary-600 mt-0.5">•</span>
@@ -153,19 +157,27 @@ export default function LanguageMapPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-600 mt-0.5">•</span>
-              <span><strong>Categories:</strong> Main areas of language (Food, Places, etc.)</span>
+              <span><strong>Categories (5):</strong> Main areas - Food, Places, Transport, People, Daily Life</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-600 mt-0.5">•</span>
-              <span><strong>Scenes:</strong> Real-life situations where you practice</span>
+              <span><strong>Scenes (10):</strong> Real situations - Cafe, Hotel, Market, Airport, etc.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-600 mt-0.5">•</span>
-              <span><strong>Colors:</strong> Gray (not started) → Yellow (learning) → Green (mastered)</span>
+              <span><strong>Verbs (18):</strong> Essential actions - makan, pergi, beli, suka, etc.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-primary-600 mt-0.5">•</span>
-              <span><strong>Click any node</strong> to start practicing that area</span>
+              <span><strong>Patterns (8):</strong> Sentence templates - "Saya mau...", "Ada...", etc.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary-600 mt-0.5">•</span>
+              <span><strong>Hover over connections</strong> to see relationship types (belongs_to, cooccurs, pattern_of)</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary-600 mt-0.5">•</span>
+              <span><strong>Click any node</strong> to navigate to practice that area</span>
             </li>
           </ul>
         </div>
